@@ -1,0 +1,44 @@
+$navigation-bar-height: 50px
+$menu-button-width: 105px
+    
+.navigation-bar
+    height: $navigation-bar-height
+    border-bottom: 1px solid blue
+    box-shadow: 2px 2px 5px deepskyblue
+    
+.menu-container
+    position: absolute
+    top: $navigation-bar-height + 2px
+    width: $menu-button-width + 60px
+    left: 0
+    display: block
+
+.menu-container--hidden
+    display: none
+
+.menu-button
+    width: $menu-button-width
+
+@media ( min-width: 500px )
+    $navigation-bar-height: 80px
+    
+    .navigation-bar
+        height: $navigation-bar-height
+    
+    #menu-toggler
+        display: none
+    
+    .menu-container
+        position: static
+        width: auto
+        height: $navigation-bar-height
+
+        display: flex
+        justify-content: center
+        align-items: center
+
+    ul
+        flex-direction: row
+
+    .list-group-item
+        border: none
