@@ -13,6 +13,8 @@ import { ContactComponent } from './component/contact/contact.component';
 import { PageNotFoundComponent } from './component/page-not-found/page-not-found.component';
 
 import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
+import { ArticleSeparatorComponent } from './component/article-separator/article-separator.component';
+import { AboutAuthorCardComponent } from './component/about-author-card/about-author-card.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
     KnowledgeComponent,
     ProjectsComponent,
     ContactComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    ArticleSeparatorComponent,
+    AboutAuthorCardComponent
   ],
   imports: [
     BrowserModule,

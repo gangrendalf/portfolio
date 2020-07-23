@@ -1,29 +1,63 @@
-$navigation-bar-height: 50px
-$menu-button-width: 105px
+*
+    font-family: 'Comfortaa', cursive
+
+    
+$navigation-bar-height: 70px
+$navigation-bar-height--short: 50px
+$menu-button-width: 115px
     
 .navigation-bar
+    margin-bottom: 32px
     height: $navigation-bar-height
     border-bottom: 1px solid blue
-    box-shadow: 2px 2px 5px deepskyblue
-    
+    background-color: white 
+    box-shadow: 2px 2px 25px deepskyblue
+    transition: box-shadow .3s, height .3s
+
+#logoProfession
+    transition: height .3s, font-size .3s
+
+#menu-toggler
+    height: 40px
+    width: 42px
+
 .menu-container
     position: absolute
     top: $navigation-bar-height + 2px
     width: $menu-button-width + 60px
     left: 0
     display: block
-
-.menu-container--hidden
-    display: none
+    z-index: 1
+    background: transparent
 
 .menu-button
     width: $menu-button-width
 
-@media ( min-width: 500px )
-    $navigation-bar-height: 80px
+#angular-icon
+    font-size: 1.6rem
+    color: rgb(194, 38, 38)
+
+#logoAddon, #logoProfession
+    font-size: .8rem
+    
+
+.navigation-bar--short
+    height: $navigation-bar-height--short
+    box-shadow: 2px 2px 5px deepskyblue
+
+.navigation-bar--short #logoProfession
+    font-size: 0
+
+.menu-container--hidden
+    display: none
+
+@media ( min-width: 768px )
+    $navigation-bar-height: 90px
+    $navigation-bar-height--short: 50px
     
     .navigation-bar
         height: $navigation-bar-height
+        transition: height .3s
     
     #menu-toggler
         display: none
@@ -32,13 +66,31 @@ $menu-button-width: 105px
         position: static
         width: auto
         height: $navigation-bar-height
-
         display: flex
         justify-content: center
         align-items: center
+        transition: height .3s
 
     ul
         flex-direction: row
 
-    .list-group-item
+    li
         border: none
+        transition: padding .3s
+
+    #angular-icon
+        font-size: 2rem
+        color: rgb(194, 38, 38)
+
+    #logoAddon, #logoProfession
+        font-size: 1rem    
+
+    .navigation-bar--short
+        height: $navigation-bar-height--short
+        box-shadow: 2px 2px 5px deepskyblue
+
+    .navigation-bar--short .menu-container
+        height: $navigation-bar-height--short
+    
+    .navigation-bar--short li
+        padding: 0px 20px

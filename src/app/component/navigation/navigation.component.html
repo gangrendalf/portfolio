@@ -1,57 +1,66 @@
-<nav class="container-fluid navigation-bar">
-    <button
-        (click)="toggleMenu(menuContainer)" 
-        class="btn btn-outline-primary" 
-        id="menu-toggler">
-        <fa-icon [icon]="faHamburger"></fa-icon>
-    </button>
-    <div
-        #menuContainer 
-        id="menu-container"
-        class="menu-container menu-container--hidden">
-        <ul 
-            (click)="hideMenuWithDelay(menuContainer, 200)"
-            class="list-group">
-            <li class="list-group-item">
-                <button
-                    [routerLink]="['brief']"
-                    routerLinkActive="active"
-                    id="brief-button"
-                    class="btn btn-outline-primary menu-button"
-                    type="button"
-                    >Brief
-                </button>
-            </li>
-            <li class="list-group-item">
-                <button
-                    [routerLink]="['knowledge']"
-                    routerLinkActive="active"
-                    id="knowledge-button"
-                    class="btn btn-outline-primary menu-button"
-                    type="button"
-                    >Knowledge
-                </button>
-            </li>
-            <li class="list-group-item">
-                <button
-                    [routerLink]="['projects']"
-                    routerLinkActive="active"
-                    id="projects-button"
-                    class="btn btn-outline-primary menu-button"
-                    type="button"
-                    >Projects
-                </button>
-            </li>
-            <li class="list-group-item">
-                <button
-                    [routerLink]="['contact']"
-                    routerLinkActive="active"
-                    id="contact-button"
-                    class="btn btn-outline-primary menu-button"
-                    type="button"
-                    >Contact
-                </button> 
-            </li>
-        </ul>
+<nav class="row no-gutters sticky-top navigation-bar" #nav>
+    <div class="col-4 col-md-10 d-flex justify-content-center align-items-center">
+        <button
+            (click)="toggleMenu(menuContainer)" 
+            class="btn btn-outline-primary" 
+            id="menu-toggler">
+            <fa-icon [icon]="faHamburger"></fa-icon>
+        </button>
+        <div
+            #menuContainer 
+            id="menu-container"
+            class="menu-container menu-container--hidden">
+            <ul 
+                (click)="hideMenuWithDelay(menuContainer, 200)"
+                class="list-group">
+                <li class="list-group-item">
+                    <button
+                        [routerLink]="['brief']"
+                        routerLinkActive="active"
+                        id="brief-button"
+                        class="btn btn-outline-primary menu-button"
+                        type="button"
+                        >Brief
+                    </button>
+                </li>
+                <li class="list-group-item">
+                    <button
+                        [routerLink]="['knowledge']"
+                        routerLinkActive="active"
+                        id="knowledge-button"
+                        class="btn btn-outline-primary menu-button"
+                        type="button"
+                        >Knowledge
+                    </button>
+                </li>
+                <li class="list-group-item">
+                    <button
+                        [routerLink]="['projects']"
+                        routerLinkActive="active"
+                        id="projects-button"
+                        class="btn btn-outline-primary menu-button"
+                        type="button"
+                        >Projects
+                    </button>
+                </li>
+                <li class="list-group-item">
+                    <button
+                        [routerLink]="['contact']"
+                        routerLinkActive="active"
+                        id="contact-button"
+                        class="btn btn-outline-primary menu-button"
+                        type="button"
+                        >Contact
+                    </button> 
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="col d-flex flex-column justify-content-center align-items-center">
+        <span id="logoProfession">Junior Angular Developer</span>
+        <span id="logoAddon"> 
+            <fa-icon [icon]="faAngular" id="angular-icon"></fa-icon>
+            Portfolio
+        </span>
     </div>
 </nav>
