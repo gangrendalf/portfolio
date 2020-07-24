@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'brief',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./brief.component.sass']
 })
 export class BriefComponent implements OnInit {
+
+  @ViewChild("wrapper", {static: true}) wrapperEl: ElementRef<HTMLDivElement>;
 
   constructor() { }
 
