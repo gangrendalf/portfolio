@@ -8,7 +8,7 @@ import { PageNotFoundComponent } from './component/page-not-found/page-not-found
 
 
 export const routes: Routes = [
-  { path: '', component: BriefComponent },
+  { path: '', redirectTo: 'brief', pathMatch: 'full' },
   { path: 'brief', component: BriefComponent },
   { path: 'knowledge', component: KnowledgeComponent },
   { path: 'projects', component: ProjectsComponent },
