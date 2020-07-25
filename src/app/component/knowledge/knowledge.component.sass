@@ -1,0 +1,33 @@
+$heading-icon-height: 55px
+    
+.section-heading
+    display: flex
+    align-items: center
+    justify-content: center
+    margin-bottom: 16px
+    letter-spacing: 2px
+
+.section-heading--icon
+    height: $heading-icon-height
+    margin: 0 4px 0 8px
+
+.section-heading--icon img
+    height: $heading-icon-height
+
+.section-heading--text
+    margin: 0
+
+.summary-note
+    font-size: 1.3rem
+
+.summary-note span
+    margin: 0 8px
+    font-size: 1.6rem
+
+@media ( min-width: 768px)
+    .section-heading
+        justify-content: start
+
+
+    .section-heading--icon
+        margin: 0 8px 0 16px

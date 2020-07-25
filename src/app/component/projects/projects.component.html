@@ -1,37 +1,68 @@
-<div class="content--fade-in">
-    <article>
-        <section class="section-map">
-            <p>
-                Hej! Witaj na mojej stronie! Poniżej znajdziesz zestawienie projektow ktore do tej pory opublikowalem. Lista jest poki co skromna, ale nie lenie sie i caly czas cwicze ;)
-            </p>
-            <ul class="list-group">
-                <li class="list-group-item">
-                    <a routerLink="/projects" fragment="section_one">ToDo List</a>
-                </li>
-            </ul>
-        </section>
-        <article-separator id="section_one"></article-separator>
-        <section class="section-title" >
-            <h3>
-                ToDo List
-            </h3>
-        </section>
-        <section class="section-body">
-            <p>
-                Krótki opis
-            </p>
-            <p>
-                Prezentacja
-            </p>
-            <p>
-                link
-            </p>
-        </section>
-        <article-separator></article-separator>
+<div class="row content--fade-in">
+    <div class="d-none d-md-block col-md-2">
         
-        <section class="d-flex justify-content-center">
-            <about-author-card></about-author-card>
-        </section>
-    </article>
+    </div>
+    <div class="col">
+        <article>
+            <section class="section-map">
+                <p>
+                    Hej! Witaj na mojej stronie! Poniżej znajdziesz zestawienie projektow ktore do tej pory opublikowalem. Lista jest poki co skromna, ale nie lenie sie i caly czas nad czymś pracuje! ;)
+                </p>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <a routerLink="/projects" fragment="section_one">Portfolio</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a routerLink="/projects" fragment="section_two">ToDo List</a>
+                    </li>
+                </ul>
+            </section>
+            <article-separator id="section_one"></article-separator>
+            <section class="section-title" >
+                <h3>
+                    Portfolio
+                </h3>
+            </section>
+            <section class="section-body">
+                <p>
+                    Nic mniej, nic więcej niż kod źródłowy tej strony. Napisana z wykorzystaniem Angulara (trochę jak strzelanie z armaty do komara) i Bootstrapa 4. W pełni responsywna. W przyszłości będzie jeszcze rozwijana, ale nie wiem jeszcze czy na tym szablonie. Realny czas wykonania: 
+                </p>
+                <ul>
+                    <li>layout: 1 dzień</li>
+                    <li>treść: 2 dni</li>
+                </ul> 
+                <p>
+                    Prezentacja
+                </p>
+                <p>
+                    link
+                </p>
+            </section>
+            <article-separator id="section_two"></article-separator>
+            <section class="section-title" >
+                <h3>
+                    ToDo List
+                </h3>
+            </section>
+            <section class="section-body">
+                <p>
+                    Prosta ToDo lista, wykorzystujacą firebase database. W planach miałem dodanie jeszcze kilku funkcjonalności, ale niestety źle przemyślałem strukturę tej aplikacji. Jeżeli pokuszę się o rozbudowę, to wpierw przepiszę apkę i zmienie firebase database na firebase cloud. 
+                </p>
+                <p>
+                    Prezentacja
+                </p>
+                <p>
+                    link
+                </p>
+            </section>
+            <article-separator></article-separator>
+            
+            <section class="d-flex justify-content-center">
+                <about-author-card></about-author-card>
+            </section>
+        </article>
+    </div>
+    <div class="d-none d-md-block col-md-2">
 
+    </div>
 </div>
