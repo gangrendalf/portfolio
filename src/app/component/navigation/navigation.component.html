@@ -1,10 +1,12 @@
 <nav class="row no-gutters sticky-top navigation-bar" #nav>
     <div class="col-4 col-md-10 d-flex justify-content-center align-items-center">
         <button
+            #menuToggler
             (click)="toggleMenu(menuContainer)" 
             class="btn btn-outline-primary" 
             id="menu-toggler">
-            <fa-icon [icon]="faHamburger"></fa-icon>
+            <!-- <fa-icon [icon]="faHamburger"></fa-icon> -->
+            <div id="cross-like-button"></div>
         </button>
         <div
             #menuContainer 
@@ -13,40 +15,44 @@
             <ul 
                 (click)="hideMenuWithDelay(menuContainer, 200)"
                 class="list-group">
-                <li class="list-group-item">
-                    <button
-                        [routerLink]="['brief']"
-                        routerLinkActive="active"
+                <li 
+                    [routerLink]="['brief']"
+                    routerLinkActive="active12345"
+                    class="list-group-item"
+                    ><button
                         id="brief-button"
                         class="btn btn-outline-primary menu-button"
                         type="button"
                         >Brief
                     </button>
                 </li>
-                <li class="list-group-item">
-                    <button
-                        [routerLink]="['knowledge']"
-                        routerLinkActive="active"
+                <li 
+                    [routerLink]="['knowledge']"
+                    routerLinkActive="active12345"
+                    class="list-group-item"
+                    ><button
                         id="knowledge-button"
                         class="btn btn-outline-primary menu-button"
                         type="button"
                         >Knowledge
                     </button>
                 </li>
-                <li class="list-group-item">
-                    <button
-                        [routerLink]="['projects']"
-                        routerLinkActive="active"
+                <li 
+                    [routerLink]="['projects']"
+                    routerLinkActive="active12345"
+                    class="list-group-item"
+                    ><button
                         id="projects-button"
                         class="btn btn-outline-primary menu-button"
                         type="button"
                         >Projects
                     </button>
                 </li>
-                <li class="list-group-item">
-                    <button
-                        [routerLink]="['contact']"
-                        routerLinkActive="active"
+                <li 
+                    [routerLink]="['contact']"
+                    routerLinkActive="active12345"
+                    class="list-group-item"
+                    ><button
                         id="contact-button"
                         class="btn btn-outline-primary menu-button"
                         type="button"

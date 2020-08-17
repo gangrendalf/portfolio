@@ -1,11 +1,7 @@
 .row
-    max-width: 400px
     margin-bottom: 24px
     padding: 5px 20px
     border: 1px solid #ddd
-
-img
-    max-width: 100px
 
 .author-name
     font-weight: bold
@@ -18,19 +14,40 @@ img
     font-size: .9rem
     color: grey
 
-.author-link
-    min-width: calc( 100% - 40px )
-    text-align: center
-
 .page-link
+    width: 100%
+
+@media (max-width: 767.9px)
+    .row
+        max-width: 320px
     
+    img
+        max-width: 100px
+
+    .author-link
+        width: 100%
+        text-align: center
 
 @media ( min-width: 768px )
     .row
-        max-width: 600px
+        width: 500px
 
     img
         max-width: 130px
+
+    .author-link
+        width: calc( 100% - 40px )
+        text-align: center
+
+@media ( min-width: 992px )
+    .row
+        width: 600px
+
+    .author-link
+        width: calc( 100% - 80px )
+        text-align: center
+
+    
 
 
     

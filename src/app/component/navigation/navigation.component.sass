@@ -5,17 +5,17 @@
 $navigation-bar-height: 70px
 $navigation-bar-height--short: 50px
 $menu-button-width: 115px
-    
+$global-transition-time: .3s
+
 .navigation-bar
-    margin-bottom: 16px
     height: $navigation-bar-height
-    border-bottom: 1px solid blue
-    background-color: white 
-    box-shadow: 2px 2px 25px deepskyblue
-    transition: box-shadow .3s, height .3s
+    border-bottom: 2px solid blue
+    background-image: linear-gradient(45deg, #ccc, #fff, #eee)
+    box-shadow: 2px 2px 25px 3px deepskyblue
+    transition: box-shadow $global-transition-time, height $global-transition-time
 
 #logoProfession
-    transition: height .3s, font-size .3s
+    transition: height $global-transition-time, font-size $global-transition-time
 
 #menu-toggler
     height: 40px
@@ -29,9 +29,11 @@ $menu-button-width: 115px
     display: block
     z-index: 1
     background: transparent
+    transition: top $global-transition-time
 
 .menu-button
     width: $menu-button-width
+    transition: width $global-transition-time, font-size $global-transition-time
 
 #angular-icon
     font-size: 1.6rem
@@ -48,8 +50,69 @@ $menu-button-width: 115px
 .navigation-bar--short #logoProfession
     font-size: 0
 
+.navigation-bar--short .menu-container
+    top: $navigation-bar-height--short + 2px
+
 .menu-container--hidden
     display: none
+
+#cross-like-button
+    width: 100%
+    height: 1px
+    border-bottom: 2px solid black
+    border-radius: 33%
+    transition: border-color $global-transition-time
+
+#cross-like-button::before
+    content: ''
+    display: block
+    width: 100%
+    height: 1px
+    border-bottom: 2px solid black
+    transform: translateY(5px)
+    transition: border-color $global-transition-time
+
+#cross-like-button::after
+    content: ''
+    display: block
+    width: 100%
+    height: 1px
+    border-bottom: 2px solid black
+    transform: translateY(-7px)
+    transition: border-color $global-transition-time
+
+.active #cross-like-button, .active #cross-like-button::before, .active #cross-like-button::after
+    border-color: white
+
+.active #cross-like-button
+    border: none
+
+.active #cross-like-button::before
+    animation: upper-bar-in $global-transition-time ease-out forwards
+
+.active #cross-like-button::after
+    animation: bottom-bar-in $global-transition-time ease-out forwards
+
+
+@keyframes upper-bar-in
+    0%
+        transform: translateY(5px)
+        
+    30%
+        transform: translateY(0px)
+
+    100%
+        transform: translateY(0px) rotateZ(45deg)
+
+@keyframes bottom-bar-in
+    0%
+        transform: translateY(-7px)
+
+    30%
+        transform: translateY(-2px)
+        
+    100%
+        transform: translateY(-2px) rotateZ(135deg)
 
 @media ( min-width: 768px )
     $navigation-bar-height: 90px
@@ -57,8 +120,7 @@ $menu-button-width: 115px
     
     .navigation-bar
         height: $navigation-bar-height
-        margin-bottom: 32px
-        transition: height .3s
+        transition: height $global-transition-time, box-shadow $global-transition-time
     
     #menu-toggler
         display: none
@@ -70,14 +132,41 @@ $menu-button-width: 115px
         display: flex
         justify-content: center
         align-items: center
-        transition: height .3s
+        transition: height $global-transition-time
 
     ul
         flex-direction: row
+        background-color: transparent
 
     li
         border: none
-        transition: padding .3s
+        transition: padding $global-transition-time
+        background-color: transparent
+
+    li::after
+        content: ''
+        display: block
+        width: 0
+        height: 0
+        position: relative
+        background-color: #eee
+        border-radius: 50%
+        transform: translateX(50%)
+        transition: width $global-transition-time, height $global-transition-time, top $global-transition-time, transform $global-transition-time, box-shadow $global-transition-time
+
+    li.active12345::after
+        top: 22px
+        width: 100%
+        height: 4px
+        border: 1px solid blue
+        box-shadow: 0 0 25px 6px deepskyblue
+        transform: translateX(0)
+
+
+    .navigation-bar--short li.active12345::after
+        top: 5px
+        height: 4px
+        box-shadow: 0 0 15px 3px deepskyblue
 
     #angular-icon
         font-size: 2rem
@@ -85,6 +174,14 @@ $menu-button-width: 115px
 
     #logoAddon, #logoProfession
         font-size: 1rem    
+
+    .navigation-bar button
+        width: 150px
+        font-size: 20px
+
+    .navigation-bar--short button
+        width: 115px
+        font-size: 16px
 
     .navigation-bar--short
         height: $navigation-bar-height--short

@@ -7,24 +7,33 @@
     font-family: 'Roboto', sans-serif
 
 body
-    // background-image: url('src/assets/bg_light_blue_1920.jpg')
+    background-image: url('src/assets/tryout/abstract-1231877_1920.jpg')
     background-attachment: fixed
     background-size: cover
 
-p
+.container
+    min-height: 90vH
+    padding-top: 48px
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, .8), rgba(255, 255, 255, 1), rgba(255, 255, 255, .8))
+
+.container p
     text-indent: 1rem
     padding-top: 12px
+    font-size: 1.1rem
 
-
-.container
-    background-color: rgba(255, 255, 255, .9)
-    padding-top: 32px
+.conitainer ul li
+    font-size: 1.1rem
 
 .content--fade-in
     animation: contentFadeIn ease-in .3s
 
 @keyframes contentFadeIn
     0%
-        opacity: 0.3
+        opacity: .3
     100%
         opacity: 1
+
+@media ( min-width: 768px )
+    .container
+        background-image: linear-gradient(90deg, rgba(255, 255, 255, .0), rgba(255, 255, 255, .5) 5%, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 1) 90%, rgba(255, 255, 255, .5) 95%, rgba(255, 255, 255, .0))
+    
