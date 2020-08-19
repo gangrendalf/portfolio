@@ -94,6 +94,9 @@ $global-transition-time: .3s
 .active #cross-like-button::after
     animation: bottom-bar-in $global-transition-time ease-out forwards
 
+li.active12345 button
+    box-shadow: 0 0 10px 4px deepskyblue
+
 
 @keyframes upper-bar-in
     0%
@@ -163,6 +166,8 @@ $global-transition-time: .3s
         box-shadow: 0 0 25px 6px deepskyblue
         transform: translateX(0)
 
+    li.active12345 button
+        box-shadow: none
 
     .navigation-bar--short li.active12345::after
         top: 5px
