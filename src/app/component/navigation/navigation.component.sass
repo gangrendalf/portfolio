@@ -2,7 +2,7 @@
     font-family: 'Comfortaa', cursive
 
     
-$navigation-bar-height: 70px
+$navigation-bar-height: 70px //70
 $navigation-bar-height--short: 50px
 $menu-button-width: 115px
 $global-transition-time: .3s
@@ -16,6 +16,7 @@ $global-transition-time: .3s
 
 #logoProfession
     transition: height $global-transition-time, font-size $global-transition-time
+    text-align: center
 
 #menu-toggler
     height: 40px
@@ -115,7 +116,7 @@ $global-transition-time: .3s
         transform: translateY(-2px) rotateZ(135deg)
 
 @media ( min-width: 768px )
-    $navigation-bar-height: 90px
+    $navigation-bar-height: 100px //90
     $navigation-bar-height--short: 50px
     
     .navigation-bar
@@ -152,10 +153,10 @@ $global-transition-time: .3s
         background-color: #eee
         border-radius: 50%
         transform: translateX(50%)
-        transition: width $global-transition-time, height $global-transition-time, top $global-transition-time, transform $global-transition-time, box-shadow $global-transition-time
+        transition: top $global-transition-time, width $global-transition-time, height $global-transition-time, border $global-transition-time, box-shadow $global-transition-time, transform $global-transition-time
 
     li.active12345::after
-        top: 22px
+        top: 27px
         width: 100%
         height: 4px
         border: 1px solid blue
@@ -192,3 +193,7 @@ $global-transition-time: .3s
     
     .navigation-bar--short li
         padding: 0px 20px
+
+@media ( min-width: 768px ) and ( max-width: 900px )
+    li
+        padding: 12px 4px

@@ -1,4 +1,4 @@
-import { Component, OnInit, HostListener, ViewChild, ElementRef } from '@angular/core';
+import { Component, HostListener, ViewChild, ElementRef } from '@angular/core';
 import { faHamburger, IconDefinition } from "@fortawesome/free-solid-svg-icons";
 import { faAngular } from "@fortawesome/free-brands-svg-icons";
 import { Router, NavigationEnd } from '@angular/router';
@@ -21,9 +21,9 @@ export class NavigationComponent {
   @HostListener('window:scroll') onScroll() {
     let nav = this.navEl.nativeElement;
 
-    if(window.scrollY > 60)
+    if(window.scrollY > 80)
       nav.classList.add('navigation-bar--short');
-    else if(window.scrollY < 20)
+    else if(window.scrollY < 10)
       nav.classList.remove('navigation-bar--short');
     }
   

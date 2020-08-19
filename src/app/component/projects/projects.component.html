@@ -6,53 +6,83 @@
         <article>
             <section class="section-map">
                 <p>
-                    Hej! Witaj na mojej stronie! Poniżej znajdziesz zestawienie projektow ktore do tej pory opublikowalem. Lista jest poki co skromna, ale nie lenie sie i caly czas nad czymś pracuje! ;)
+                    Hej! Witaj w sekcji dotyczącej moich zrealizowanych projektów. Lista jest póki co skromna, ale nie lenie sie i caly czas nad czymś pracuje! ;)
                 </p>
                 <ul class="list-group-flush">
                     <li class="list-group-item">
                         <a routerLink="/projects" fragment="section_one">Portfolio</a>
                     </li>
                     <li class="list-group-item">
-                        <a routerLink="/projects" fragment="section_two">ToDo List</a>
+                        <a routerLink="/projects" fragment="section_two">To-Do App</a>
                     </li>
                 </ul>
             </section>
             <article-separator id="section_one"></article-separator>
             <section class="section-title" >
-                <h3>
+                <h2>
                     Portfolio
-                </h3>
+                </h2>
             </section>
             <section class="section-body">
                 <p>
                     Nic mniej, nic więcej niż kod źródłowy tej strony. Napisana z wykorzystaniem Angulara (trochę jak strzelanie z armaty do komara) i Bootstrapa 4. W pełni responsywna. W przyszłości będzie jeszcze rozwijana, ale nie wiem jeszcze czy na tym szablonie. Realny czas wykonania: 
                 </p>
-                <ul>
-                    <li>layout: 1 dzień</li>
-                    <li>treść: 2 dni</li>
+                <ul class="list-group">
+                    <li>layout: 2 dni</li>
+                    <li>treść: 1 dzień</li>
                 </ul> 
                 <p>
-                    Prezentacja
-                </p>
-                <p>
-                    link
+                    <a href="http://google.com" target="_blank" rel="noopener noreferrer">Link do GitHub'a</a>
                 </p>
             </section>
             <article-separator id="section_two"></article-separator>
             <section class="section-title" >
-                <h3>
+                <h2>
                     ToDo List
-                </h3>
+                </h2>
             </section>
             <section class="section-body">
                 <p>
-                    Prosta ToDo lista, wykorzystujacą firebase database. W planach miałem dodanie jeszcze kilku funkcjonalności, ale niestety źle przemyślałem strukturę tej aplikacji. Jeżeli pokuszę się o rozbudowę, to wpierw przepiszę apkę i zmienie firebase database na firebase cloud. 
+                    Prosta ToDo lista, napisana z wykorzystaniem Angular 8, RxJS, Bootstrap 4 i ngBootstrap 5. W projekcie brakuje testów jednostkowych - pisanie apki zacząłem z myślą, że będzie to tylko ćwiczenie, a nie publikacja do portfolio - dlatego też nie przemyślałem do końca struktury oraz w ogóle pominąłem testy. Ostatecznie ilość kodu na tyle się rozrosła, że zdecydowałem się na publikację aplikacji w portfolio.
                 </p>
                 <p>
-                    Prezentacja
+                    W planach miałem dodanie jeszcze kilku funkcjonalności, ale nie jestem pewien czy obecna struktura programu mi na to pozwoli - wpierw wolałbym przepisać na nowo kilka elementów oraz zmienić Firebase Database na Firebase Cloud.
+                </p>
+                <br>
+                <div>
+                    <ngb-carousel *ngIf="images">
+                        <ng-template ngbSlide>
+                          <div class="picsum-img-wrapper">
+                            <img [src]="images[0]" alt="Random first slide">
+                          </div>
+                        </ng-template>
+                        <ng-template ngbSlide>
+                          <div class="picsum-img-wrapper">
+                            <img [src]="images[1]" alt="Random second slide">
+                          </div>
+                        </ng-template>
+                        <ng-template ngbSlide>
+                          <div class="picsum-img-wrapper">
+                            <img [src]="images[2]" alt="Random third slide">
+                          </div>
+                        </ng-template>
+                        <ng-template ngbSlide>
+                            <div class="picsum-img-wrapper">
+                              <img [src]="images[3]" alt="Random third slide">
+                            </div>
+                          </ng-template>
+                          <ng-template ngbSlide>
+                            <div class="picsum-img-wrapper">
+                              <img [src]="images[4]" alt="Random third slide">
+                            </div>
+                          </ng-template>
+                      </ngb-carousel>
+                </div>
+                <p>
+                    <a href="https://github.com/gangrendalf/to-do-app" target="_blank" rel="noopener noreferrer">Link do GitHub'a</a>
                 </p>
                 <p>
-                    link
+                    <a href="https://to-do-app-19460.firebaseapp.com/welcome" target="_blank" rel="noopener noreferrer">Link do hostingu</a>
                 </p>
             </section>
             <article-separator></article-separator>

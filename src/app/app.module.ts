@@ -16,6 +16,11 @@ import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
 import { ArticleSeparatorComponent } from './component/article-separator/article-separator.component';
 import { AboutAuthorCardComponent } from './component/about-author-card/about-author-card.component';
 
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
+import { AngularFireModule } from '@angular/fire';
+import { environment } from 'src/environments/environment.prod';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,7 +37,9 @@ import { AboutAuthorCardComponent } from './component/about-author-card/about-au
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    FontAwesomeModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
