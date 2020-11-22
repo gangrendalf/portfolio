@@ -32,22 +32,36 @@
                     <a routerLink="/brief" fragment="update_22_11_2020">
                         tutaj
                     </a>
-                    . Znaczy się trochę OOP, trochę czystego kodu, trochę czystej architekury.  
+                    . Znaczy się trochę OOP, trochę czystego kodu, trochę czystej architekury. Dalsze rozwijanie kodu tej strony to czysta przyjemność i raczej formalność. I to właśnie dzięki literaturze pana Roberta C. Martina! Polecam każdemu :)
                 </p>
                 <br>
                     <div>
                         <ngb-carousel *ngIf="stronaZObrazkamiCarouselDataSource as images">
                             <ng-template ngbSlide>
-                            <div class="picsum-img-wrapper">
-                                <img [src]="images[0]" alt="Random first slide">
-                            </div>
+                                <div class="picsum-img-wrapper">
+                                    <img [src]="images[0]" alt="Random first slide">
+                                </div>
                             </ng-template>
                             <ng-template ngbSlide>
-                            <div class="picsum-img-wrapper">
-                                <img [src]="images[1]" alt="Random second slide">
-                            </div>
+                                <div class="picsum-img-wrapper">
+                                    <img [src]="images[1]" alt="Random second slide">
+                                </div>
                             </ng-template>
-                         
+                            <ng-template ngbSlide>
+                                <div class="picsum-img-wrapper">
+                                    <img [src]="images[2]" alt="Random second slide">
+                                </div>
+                            </ng-template>
+                            <ng-template ngbSlide>
+                                <div class="picsum-img-wrapper">
+                                    <img [src]="images[3]" alt="Random second slide">
+                                </div>
+                            </ng-template>
+                            <ng-template ngbSlide>
+                                <div class="picsum-img-wrapper">
+                                    <img [src]="images[4]" alt="Random second slide">
+                                </div>
+                            </ng-template>
                         </ngb-carousel>
                     </div>
                 <br>
@@ -64,7 +78,7 @@
                     <i><b>Po drugie</b></i>
                 </h5>
                 <p>
-                    ToDo App należy poddać gruntownemu refactoringowi. Być może nawet przepisaniu od nowa (dawno tam nie zaglądałem i trochę się tego boję). Chcę zaznaczyć ten fakt wyraźnie i jednoznacznie w przypadku, gdyby nie była to Twoja pierwsza wizyta na tej stronie :) 
+                    ToDo App należy poddać gruntownemu refactoringowi. Być może nawet przepisaniu od nowa (dawno tam nie zaglądałem i trochę się tego boję). Chcę zaznaczyć ten fakt wyraźnie i jednoznacznie w przypadku, gdyby nie była to Twoja pierwsza wizyta na tej stronie :)
                 </p>
                 <p>
                     <a href="https://github.com/gangrendalf/strona-ze-smiesznymi-obrazkami" target="_blank" rel="noopener noreferrer">Link do GitHub'a</a>
@@ -87,28 +101,28 @@
                     <div>
                         <ngb-carousel *ngIf="todoListCarouselDataSource as images">
                             <ng-template ngbSlide>
-                            <div class="picsum-img-wrapper">
-                                <img [src]="images[0]" alt="Random first slide">
-                            </div>
-                            </ng-template>
-                            <ng-template ngbSlide>
-                            <div class="picsum-img-wrapper">
-                                <img [src]="images[1]" alt="Random second slide">
-                            </div>
-                            </ng-template>
-                            <ng-template ngbSlide>
-                            <div class="picsum-img-wrapper">
-                                <img [src]="images[2]" alt="Random third slide">
-                            </div>
-                            </ng-template>
-                            <ng-template ngbSlide>
                                 <div class="picsum-img-wrapper">
-                                <img [src]="images[3]" alt="Random third slide">
+                                    <img [src]="images[0]" alt="Random first slide">
                                 </div>
                             </ng-template>
                             <ng-template ngbSlide>
                                 <div class="picsum-img-wrapper">
-                                <img [src]="images[4]" alt="Random third slide">
+                                    <img [src]="images[1]" alt="Random second slide">
+                                </div>
+                            </ng-template>
+                            <ng-template ngbSlide>
+                                <div class="picsum-img-wrapper">
+                                    <img [src]="images[2]" alt="Random third slide">
+                                </div>
+                            </ng-template>
+                            <ng-template ngbSlide>
+                                <div class="picsum-img-wrapper">
+                                    <img [src]="images[3]" alt="Random third slide">
+                                </div>
+                            </ng-template>
+                            <ng-template ngbSlide>
+                                <div class="picsum-img-wrapper">
+                                    <img [src]="images[4]" alt="Random third slide">
                                 </div>
                             </ng-template>
                         </ngb-carousel>

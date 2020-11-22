@@ -5,25 +5,23 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.sass']
 })
-export class ProjectsComponent implements OnInit {
-
-  todoListCarouselDataSource = [
-    '/assets/projects-page/ToDoApp/desktop_list.png',
-    '/assets/projects-page/ToDoApp/desktop_alarm.png',
-    '/assets/projects-page/ToDoApp/desktop_notification.png',
-    '/assets/projects-page/ToDoApp/mobile_list.png',
-    '/assets/projects-page/ToDoApp/mobile_menu.png'
-  ];
+export class ProjectsComponent {
 
   stronaZObrazkamiCarouselDataSource = [
-    '/assets/projects-page/ToDoApp/desktop_alarm.png',
-    '/assets/projects-page/ToDoApp/desktop_list.png',
+    '/assets/projects-presentation/stronaZeSmiesznymiObrazkami/Screenshot_1.png',
+    '/assets/projects-presentation/stronaZeSmiesznymiObrazkami/Screenshot_2.png',
+    '/assets/projects-presentation/stronaZeSmiesznymiObrazkami/Screenshot_3.png',
+    '/assets/projects-presentation/stronaZeSmiesznymiObrazkami/Screenshot_4.png',
+    '/assets/projects-presentation/stronaZeSmiesznymiObrazkami/Screenshot_5.png'
+  ];
 
-  ]
+  todoListCarouselDataSource = [
+    '/assets/projects-presentation/ToDoApp/Screenshot_1.png',
+    '/assets/projects-presentation/ToDoApp/Screenshot_2.png',
+    '/assets/projects-presentation/ToDoApp/Screenshot_3.png',
+    '/assets/projects-presentation/ToDoApp/Screenshot_4.png',
+    '/assets/projects-presentation/ToDoApp/Screenshot_5.png'
+  ];
 
   constructor() { }
-
-  ngOnInit() {
-  }
-
 }
