@@ -7,12 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsComponent implements OnInit {
 
-  images = [
+  todoListCarouselDataSource = [
     '/assets/projects-page/ToDoApp/desktop_list.png',
     '/assets/projects-page/ToDoApp/desktop_alarm.png',
     '/assets/projects-page/ToDoApp/desktop_notification.png',
     '/assets/projects-page/ToDoApp/mobile_list.png',
     '/assets/projects-page/ToDoApp/mobile_menu.png'
+  ];
+
+  stronaZObrazkamiCarouselDataSource = [
+    '/assets/projects-page/ToDoApp/desktop_alarm.png',
+    '/assets/projects-page/ToDoApp/desktop_list.png',
+
   ]
 
   constructor() { }
