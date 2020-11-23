@@ -1,4 +1,4 @@
-$heading-icon-height: 55px
+@import 'src/_variables.sass'
     
 .section-heading
     display: flex
@@ -8,11 +8,11 @@ $heading-icon-height: 55px
     letter-spacing: 2px
 
 .section-heading--icon
-    height: $heading-icon-height
+    height: $section-heading-icon-height
     margin: 0 4px 0 8px
 
 .section-heading--icon img
-    height: $heading-icon-height
+    height: $section-heading-icon-height
 
 .section-heading--text
     margin: 0
@@ -26,7 +26,7 @@ $heading-icon-height: 55px
     margin: 0 8px
     font-size: 2rem
 
-@media ( min-width: 768px)
+@media ( min-width: $md-breakpoint)
     .section-heading
         justify-content: start
 

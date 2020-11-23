@@ -1,4 +1,7 @@
+@import 'src/_variables.sass'
+    
 .row
+    max-width: 320px
     margin-bottom: 24px
     padding: 5px 20px
     border: 1px solid #ddd
@@ -17,20 +20,17 @@
 .page-link
     width: 100%
 
-@media (max-width: 767.9px)
-    .row
-        max-width: 320px
-    
-    img
-        max-width: 100px
+img
+    max-width: 100px
 
-    .author-link
-        width: 100%
-        text-align: center
+.author-link
+    width: 100%
+    text-align: center
 
-@media ( min-width: 768px )
+@media ( min-width: $md-breakpoint )
     .row
         width: 500px
+        max-width: none
 
     img
         max-width: 130px
@@ -39,7 +39,7 @@
         width: calc( 100% - 40px )
         text-align: center
 
-@media ( min-width: 992px )
+@media ( min-width: $lg-breakpoint )
     .row
         width: 600px
 

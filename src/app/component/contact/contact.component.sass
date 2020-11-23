@@ -1,17 +1,14 @@
-.row.content--fade-in
-    min-height: 500px
+@import 'src/_variables.sass'
     
-
-
 .link-box
     padding: 12px 36px
     cursor: pointer
-    transition: transform .4s ease-out
+    transition: transform $global-transition-time--long ease-out
 
 .link-box fa-icon
     color: grey
     font-size: 3rem
-    transition: transform .4s ease-out, color .4s ease-out
+    transition: transform $global-transition-time--long ease-out, color $global-transition-time--long ease-out
 
 .link-box div
     width: 0
@@ -19,7 +16,7 @@
     letter-spacing: 2px
     font-size: 1.5rem
     overflow: hidden
-    transition: width .4s ease-out
+    transition: width $global-transition-time--long ease-out
 
 .link-box:hover fa-icon
     transform: scale(1.4) 

@@ -1,13 +1,7 @@
+@import 'src/_variables.sass'
+    
 *
     font-family: 'Comfortaa', cursive
-
-    
-$navigation-bar-height: 70px //70
-$navigation-bar-height--short: 50px
-$menu-button-width: 180px
-$menu-button-height: 38px
-$menu-button-background: rgba(0, 123, 255, .6)
-$global-transition-time: .3s
 
 .navigation-bar
     height: $navigation-bar-height
@@ -65,7 +59,7 @@ $global-transition-time: .3s
 
 .menu-button.active
     background-color: $menu-button-background
-    animation: button-bump .4s ease-out
+    animation: button-bump $global-transition-time--long ease-out
 
 @keyframes button-bump
     0%
@@ -159,7 +153,7 @@ $global-transition-time: .3s
     100%
         transform: translateY(-2px) rotateZ(135deg)
 
-@media ( min-width: 768px )
+@media ( min-width: $md-breakpoint )
     $navigation-bar-height: 100px //90
     $navigation-bar-height--short: 60px
     $menu-button-width: 150px
@@ -253,6 +247,6 @@ $global-transition-time: .3s
         height: 4px
         box-shadow: 0 0 15px 3px deepskyblue
 
-@media ( min-width: 768px ) and ( max-width: 900px )
+@media ( min-width: $md-breakpoint ) and ( max-width: $md-lg-breakpoint )
     li
         padding: 12px 4px
