@@ -65,6 +65,24 @@ $global-transition-time: .3s
 
 .menu-button.active
     background-color: $menu-button-background
+    animation: button-bump .5s ease-out
+
+@keyframes button-bump
+    0%
+        top: -1px  
+        transform: scale(1.0)
+
+    33%
+        top: 5px
+        transform: scale(0.95)  
+    66%
+        top: -1px  
+        transform: scale(1.0)
+   
+    100%
+        top: -1px
+        transform: scale(1.0)     
+        
 
 #angular-icon
     font-size: 1.6rem
@@ -143,7 +161,7 @@ $global-transition-time: .3s
 
 @media ( min-width: 768px )
     $navigation-bar-height: 100px //90
-    $navigation-bar-height--short: 50px
+    $navigation-bar-height--short: 60px
     $menu-button-width: 150px
     $menu-button-height: 44px
     
