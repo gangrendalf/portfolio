@@ -14,47 +14,48 @@
             class="menu-container menu-container--hidden">
             <ul 
                 (click)="hideMenuWithDelay(menuContainer, 200)"
-                class="list-group">
+                class="list-group list-unstyled">
                 <li 
                     [routerLink]="['brief']"
-                    routerLinkActive="active12345"
-                    class="list-group-item"
+                    class="list-group-item list"
                     ><button
+                        routerLinkActive="active"
                         id="brief-button"
-                        class="btn btn-outline-primary menu-button"
+                        class="btn menu-button"
                         type="button"
                         >Brief
                     </button>
                 </li>
                 <li 
                     [routerLink]="['knowledge']"
-                    routerLinkActive="active12345"
                     class="list-group-item"
                     ><button
+                        routerLinkActive="active"
                         id="knowledge-button"
-                        class="btn btn-outline-primary menu-button"
+                        class="btn menu-button"
                         type="button"
                         >Knowledge
                     </button>
                 </li>
                 <li 
                     [routerLink]="['projects']"
-                    routerLinkActive="active12345"
                     class="list-group-item"
                     ><button
+                        routerLinkActive="active"
                         id="projects-button"
-                        class="btn btn-outline-primary menu-button"
+                        class="btn menu-button"
+                        routerLinkActive="active"
                         type="button"
                         >Projects
                     </button>
                 </li>
                 <li 
                     [routerLink]="['contact']"
-                    routerLinkActive="active12345"
                     class="list-group-item"
                     ><button
+                        routerLinkActive="active"
                         id="contact-button"
-                        class="btn btn-outline-primary menu-button"
+                        class="btn menu-button"
                         type="button"
                         >Contact
                     </button> 
