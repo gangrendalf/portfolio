@@ -1,3 +1,39 @@
-fa-icon
-    color: black
-    font-size: 56px
+.row.content--fade-in
+    min-height: 500px
+    
+
+
+.link-box
+    padding: 0 24px
+    cursor: pointer
+    transition: transform .4s ease-out
+
+.link-box fa-icon
+    color: grey
+    font-size: 3rem
+    transition: transform .4s ease-out, color .4s ease-out
+
+.link-box div
+    width: 0
+    padding-left: 22px
+    letter-spacing: 2px
+    font-size: 1.5rem
+    overflow: hidden
+    transition: width .4s ease-out
+
+.link-box:hover fa-icon
+    transform: scale(1.4) 
+
+.link-box:hover div
+    width: 150px
+
+.link-box[href*="linkedin.com"]:hover fa-icon
+    color: #0a66c2
+
+.link-box[href*="github.com"]:hover fa-icon
+    color: #000000
+
+.link-box[href*="mailto:"]:hover fa-icon
+    color: tomato
+
+
