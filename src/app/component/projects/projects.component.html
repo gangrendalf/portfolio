@@ -2,11 +2,11 @@
     <div class="d-none d-md-block col-md-2">
         
     </div>
-    <div class="col">
+    <div class="col" *ngIf="texts">
         <article>
             <section class="section-map">
                 <p>
-                    Hej! Witaj w sekcji dotyczącej moich zrealizowanych projektów. Lista jest póki co skromna, ale nie lenie sie i caly czas nad czymś pracuje! ;) Projekty ułożone są w kolejności od najnowszych do najstarszych.
+                    {{ texts.introduction.content }}
                 </p>
                 <ul class="list-group-flush">
                     <li class="list-group-item">
@@ -14,7 +14,7 @@
                             routerLink="/projects" 
                             fragment="section_one"
                             class="link--underline"
-                            >Strona ze śmiesznymi obrazkami
+                            >{{ texts.mapLinks.content[0] }}
                         </a>
                     </li>
                     <li class="list-group-item">
@@ -22,7 +22,7 @@
                             routerLink="/projects" 
                             fragment="section_two"
                             class="link--underline"
-                            >To-Do App
+                            >{{ texts.mapLinks.content[1] }}
                         </a>
                     </li>
                     <li class="list-group-item">
@@ -30,7 +30,7 @@
                             routerLink="/projects" 
                             fragment="section_three"
                             class="link--underline"
-                            >Portfolio
+                            >{{ texts.mapLinks.content[2] }}
                         </a>
                     </li>
                 </ul>
@@ -38,16 +38,12 @@
             <article-separator id="section_one"></article-separator>
             <section class="section-title" >
                 <h2>
-                    Strona ze śmiesznymi obrazkami
+                    {{ texts.stronaZeSmiesznymiObrazkami.heading }}
                 </h2>
             </section>
             <section class="section-body">
                 <p>
-                    Taaaak... zawsze czegoś do końca nie przemyślę. W tym przypadku była to nazwa strony... :) Jak poprzednie projekty  także i ten został napisany w Angular 8 z wykorzystaniem RxJS'a, Bootstrapa oraz Firebase. Obecnie projekt nie jest nigdzie hostowany, bo kilka rzeczy jest jeszcze niedokończonych. Ale udostępniam go już w tym stadium ponieważ jest to wiedza, którą wyniosłem z czytania książek wymienionych o 
-                    <a routerLink="/brief" fragment="update_22_11_2020">
-                        tutaj
-                    </a>
-                    . Znaczy się trochę OOP, trochę czystego kodu, trochę czystej architekury. Dalsze rozwijanie kodu tej strony to czysta przyjemność i raczej formalność. I to właśnie dzięki literaturze pana Roberta C. Martina! Polecam każdemu :)
+                    {{ texts.stronaZeSmiesznymiObrazkami.content[0] }}
                 </p>
                 <br>
                     <div>
@@ -61,19 +57,19 @@
                     </div>
                 <br>
                 <p>
-                    Kod tej strony jest czymś co chciałbym Ci zaprezentować - w przeciwieństwie do kodu źródłowego ToDo App! Ale nie usuwam nic z dwóch powodów.
+                    {{ texts.stronaZeSmiesznymiObrazkami.content[1] }}
                 </p>
                 <h5>
-                    <i><b>Po pierwsze</b></i>
+                    <i><b>{{ texts.stronaZeSmiesznymiObrazkami.content[2] }}</b></i>
                 </h5>
                 <p>
-                    Dzięki temu mogę pokazać swój progress z ostatnich dwóch miesięcy nauki. Testy, zasady dotyczące clean code, podstawy OOP i bardziej przemyślanej architektury.
+                    {{ texts.stronaZeSmiesznymiObrazkami.content[3] }}
                 </p>
                 <h5>
-                    <i><b>Po drugie</b></i>
+                    <i><b>{{ texts.stronaZeSmiesznymiObrazkami.content[4] }}</b></i>
                 </h5>
                 <p>
-                    ToDo App należy poddać gruntownemu refactoringowi. Być może nawet przepisaniu od nowa (dawno tam nie zaglądałem i trochę się tego boję). Chcę zaznaczyć ten fakt wyraźnie i jednoznacznie w przypadku, gdyby nie była to Twoja pierwsza wizyta na tej stronie :)
+                    {{ texts.stronaZeSmiesznymiObrazkami.content[5] }}
                 </p>
                 <p>
                     <a 
@@ -81,22 +77,22 @@
                         target="_blank" 
                         rel="noopener noreferrer"
                         class="link--underline"
-                        >Link do GitHub'a
+                        >{{ texts.stronaZeSmiesznymiObrazkami.content[6] }}
                     </a>
                 </p>
             </section>
             <article-separator id="section_two"></article-separator>
                 <section class="section-title" >
                     <h2>
-                        ToDo App
+                        {{ texts.toDoApp.heading }}
                     </h2>
                 </section>
                 <section class="section-body">
                     <p>
-                        Prosta ToDo lista, napisana z wykorzystaniem Angular 8, RxJS, Bootstrap 4 i ngBootstrap 5. W projekcie brakuje testów jednostkowych - pisanie apki zacząłem z myślą, że będzie to tylko ćwiczenie, a nie publikacja do portfolio - dlatego też nie przemyślałem do końca struktury oraz w ogóle pominąłem testy. Ostatecznie ilość kodu na tyle się rozrosła, że zdecydowałem się na publikację aplikacji w portfolio.
+                        {{ texts.toDoApp.content[0] }}
                     </p>
                     <p>
-                        W planach miałem dodanie jeszcze kilku funkcjonalności, ale nie jestem pewien czy obecna struktura programu mi na to pozwoli - wpierw wolałbym przepisać na nowo kilka elementów oraz zmienić Firebase Database na Firebase Cloud.
+                        {{ texts.toDoApp.content[1] }}
                     </p>
                     <br>
                     <div>
@@ -110,7 +106,7 @@
                     </div>
                     <br>
                     <p>
-                        Słowem podsumowania - aplikacja działa, ale z racji, że był to mój pierwszy większy projekt to daleko mu do ideału. Kod znajdujący się w repo wolałbym, żeby został potraktowany raczej w celach weryfikacji postępów, niż ostatecznej oceny moich umiejętności.
+                        {{ texts.toDoApp.content[2] }}
                     </p>
                     <p>
                         <a 
@@ -118,7 +114,7 @@
                             target="_blank" 
                             rel="noopener noreferrer"
                             class="link--underline"
-                            >Link do GitHub'a
+                            >{{ texts.toDoApp.content[3] }}
                         </a>
                     </p>
                     <p>
@@ -127,19 +123,19 @@
                             target="_blank" 
                             rel="noopener noreferrer"
                             class="link--underline"
-                            >Link do hostingu
+                            >{{ texts.toDoApp.content[4] }}
                         </a>
                     </p>
                 </section>
             <article-separator id="section_three"></article-separator>
                 <section class="section-title" >
                     <h2>
-                        Portfolio
+                        {{ texts.portfolio.heading }}
                     </h2>
                 </section>
                 <section class="section-body">
                     <p>
-                        Nic mniej, nic więcej niż kod źródłowy tej strony. Napisana z wykorzystaniem Angulara (trochę jak strzelanie z armaty do komara) i Bootstrapa 4. W pełni responsywna. W przyszłości będzie jeszcze rozwijana, ale nie wiem jeszcze czy na tym szablonie. 
+                        {{ texts.portfolio.content[0] }} 
                     </p>
                     <p>
                         <a 
@@ -147,7 +143,7 @@
                             target="_blank" 
                             rel="noopener noreferrer"
                             class="link--underline"
-                            >Link do GitHub'a
+                            >{{ texts.portfolio.content[1] }} 
                         </a>
                     </p>
                 </section>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LanguageService } from 'src/app/services/language.service';
 
 @Component({
   selector: 'projects',
@@ -23,5 +24,11 @@ export class ProjectsComponent {
     '/assets/projects-presentation/ToDoApp/Screenshot_5.png'
   ];
 
-  constructor() { }
+  texts: any = null;
+
+  constructor(private lang: LanguageService ) { 
+    this.lang.textsJson$.subscribe(t => 
+      this.texts = t.values.projects
+    );
+  }
 }

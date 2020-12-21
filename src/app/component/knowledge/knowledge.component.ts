@@ -1,15 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { LanguageService } from 'src/app/services/language.service';
 
 @Component({
   selector: 'knowledge',
   templateUrl: './knowledge.component.html',
   styleUrls: ['./knowledge.component.sass']
 })
-export class KnowledgeComponent implements OnInit {
+export class KnowledgeComponent {
+  texts: any = null;
 
-  constructor() { }
-
-  ngOnInit() {
+  constructor(private lang: LanguageService ) { 
+    this.lang.textsJson$.subscribe(t => 
+      this.texts = t.values.knowledge
+    );
   }
-
 }

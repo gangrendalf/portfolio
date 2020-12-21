@@ -70,4 +70,9 @@
             Portfolio
         </span>
     </div>
+    <div class="btn-language">
+        <select class="form-control form-control-sm" (change)="setLang($event.target.value)" [value]="activeLanguage"> 
+            <option *ngFor="let lang of languages" value="{{ lang }}" >{{ lang }}</option>
+        </select>
+    </div>
 </nav>

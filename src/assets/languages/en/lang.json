@@ -1,0 +1,253 @@
+
+{
+  "language": "Polski",
+  "values": {
+
+
+    
+    "brief": {
+      "introduction": {
+        "heading": "Introduction",
+        "content": [
+          "Hey! Welcome to my page! Below You find some details about me - more personal than profession-related."
+        ]
+      },
+      "mapLinks": {
+        "heading": "",
+        "content": [
+          "Who I was?",
+  
+          "Who I am?",
+  
+          "Why front-end?",
+  
+          "How do I get knowledge?"
+        ]
+      },
+      "chapter1": {
+        "heading": "Kim byłem?",
+        "content": [
+          "Inżynierem systemów sterowania, bądź automatykiem - z której strony by nie spojrzeć to pracowałem w przemyśle. Od samego początku mojej zawodowej kariery byłem związany z branżą motoryzacyjną. 5 lat spędziłem na odwiedzając fabryki rozsiane po świecie (od Ameryki Północnej, przez Południową, po Europę). Ale ta strona nie powstała z myślą o prezentacji tego co było, ale tego co jest i co będzie :) Dlatego postaram się skrócić dotychczasowe 5 lat w kilku zaledwie zdaniach.",
+  
+          "Moja dotychczasowa praca skupiała się głównie na aspektach związanych z programowaniem sterowników przemysłowych oraz konfigurowaniem urządzeń peryferyjnych i wszelkiej maści komunikacji. Lubiłem to określać jako \"klocki dla dużych chłopców\" :) Uruchamianie wielkich i kosztownych maszyn to był oczywiście stres i ciągłe gonienie terminów, ale też niesamowita frajda, kiedy wszystko zaczynało powoli ożywać. Niestety nierozłącznym elementem projektów, które realizowaliśmy były liczne delegacje, które to ostatecznie zmotywowały mnie do zmiany branży."
+        ]
+      },
+      "chapter2": {
+        "heading": "Kim jestem?",
+        "content": [
+          "Z zawodu automatyk, z zamiłowania programista :) Pogodny, uśmiechnięty i lubiący wyzwania. Czasami trochę niecierpliwy. Za to zawsze skory do pomocy! Tyle z superlatyw ;)",
+        
+          "Aktualnie jestem w trakcie poszukiwania swojej pierwszy pracy w charakterze front-end'a. Niestety nie miałem do tej pory okazji zdobyć komercyjnego doświadczenia. W związku z tym trudno jest mi powiedzieć coś więcej o swoich dotychczasowych sukcesach w branży... Przynać się muszę, że jeszcze rok temu nie pomyślałbym, że znajdę się w obecnej sytuacji. Mimo tego, że w głowie świtała mi myśl o związaniu się ze światem IT to sama decyzja o zmianie zawodu wyszła dość spontanicznie."
+        ]
+      },
+      "chapter3": {
+        "heading": "Dlaczego front-end?",
+        "content": [
+          "Lubię, gdy się dzieje! Najlepiej dużo i szybko! Zanim postawiłem ostatecznie na front-end spróbowałem również zapoznać się z backend'em oraz troszkę z Unity. Backend mimo, że ciekawy wydał mi się mało \"dynamiczny\"... Chciałbym się w tym kierunku również rozwinąć w przyszłości, ale chwilowo to odpuściłem, ponieważ wydawaje mi się to bardziej monotonne. No i wyniki pracy nie są tak widoczne jak we front'cie, gdzie rezultat pisanego kody rzuca się od razu w oczy :) Takie przynajmniej odniosłem wrażenie, prawdopodobnie mylne, ale jakoś zdecydować trzeba było! Pisanie gier natomiast było dla mnie na tyle nowym tematem, że nie sądzę, że dałoby się tego dobrze nauczyć w stosunkowo krótkim czasie. Tak więc padło na front-end!", 
+          
+          "Ale, że pisanie layout'u i logiki po stronie klienta to rozległy temat, a sam JS nie wygląda na najbardziej dopieszczony język na świecie to na tym moje poszukiwania nie przestały. Oczywiście samego JS'a umiem, ale nie spełniał on do końca moich wyobrażeń. Dlatego bardzo się ucieszyłem, gdy natknąłem się na TypeScript i Angular'a. Od razu wiedziałem, że to będzie to :) Modułowość, poprawiona składnia, mniej rzeźbienia u podstaw... Angular to jest to! Samego JS'a nie odpuściłem i staram się pogłebiać swoją wiedzę w tym temacie również, ale docelowo chciałbym się w swojej pracy skupić właśnie na Angularze.",
+          
+          "W chwili obecnej szlifuje swoje umiejetności we front-end'ie, ale docelowo nie mam zamiaru się ograniczać tylko do tego. W końcu język programowania (bądź framework) to tylko narzędzie, a umiejętność pisania czystego kodu i myślenia na różnych poziomach abstrakcji przyda się w każdym rodzaju programowania. Za kilka lat, o ile wszystko się potoczy po mojej myśli, chciałbym pracować w charakterze full-stack developera i nie ograniczać się tylko do JS'a i jego pochodnych/rozszerzeń."
+        ]
+      },
+      "chapter4": {
+        "heading": "Jak zdobywałem wiedzę?",
+        "content": [
+          "To już z górki poszło :) Po sprecyzowaniu swoich celów zacząłem od przeglądania róznych ofert kursów dla początkujących programistów. Niestety wszystkie z nich wydawały się zbyt mocno rozciągnięte w czasie i nie wyczerpywały moich oczekiwań - znałem już podstawy C# i obiektowości ze swojej poprzedniej pracy. Więc zacząłem kopać w kursach online. Ostatecznie przerobiłem całkiem pokaźną ilość videokursów z Udemy. Z podstawami, które z nich wyniosłem zacząłem wymyślać sobie swoje projekty i projekciki. I tak wpłynąłem na suchego przestwór oceanu... Znaczy mdn, stackoverflow i masa innych podobnych stron. Nie pomijając wielu tutoriali na YT oraz dokumentacji od co niektorych bibliotek. Dużo tego było i zapowiada się na to, że będzie jeszcze więcej. Szczególnie, że przede mną jeszcze najżmudniejszy temat - wzorce projektowe :) Uncle Bob czeka!"
+        ]
+      },
+      "chapter4update1": {
+        "heading": "UPDATE: 22.11.2020",
+        "content": [
+          "Literatura! Uzbroiłem się na początek w dwie książki",
+  
+          "Czysty kod. Podręcznik dobrego programisty.",
+          
+          "Robert C. Martin",
+  
+          "Czysta architektura. Struktura i design oprogramowania. Przewodnik dla profesjonalistów.",
+          
+          "Robert C. Martin",
+  
+          "Także same wzorce projektowe zeszły chwilowo na dalszy plan. Oczywiście trochę wiedzy w tym kierunku też zdobyłem, ale nie na tyle aby powiedzieć, że mam je opanowane. Obie wspomniane książki są wręcz rewelacyjne. Pokuszę się o ich krótką recenzję - ale jeszcze nie teraz. Wraz z czytaniem starałem się wprowadzać nowo zdobytą widzę do pisanego kodu (czego efektem jest kolejny projekt w portfolio), ale koniecznie muszę je przewertować od deski do deski jeszcze raz! W trakcie czytania szybko sobie uzmysłowiłem, że moja wiedza o OOP była zdecydowanie zbyt mała - żeby nie powiedzieć znikoma. Ale na szczęście to się szybko zmienia! :)"
+        ]
+      }
+    },
+
+
+
+    "knowledge": {
+      "introduction": {
+        "heading": "",
+        "content": [
+          "Hey! Welcome at technical knowledge section. Below each category is my subiective note in 6-staged school scale."
+        ]
+      },
+      "mapLinks": {
+        "heading": "",
+        "content": [
+          "HTML",
+
+          "CSS/SASS",
+
+          "JavaScript/TypeScript",
+
+          "Angular 2+",
+
+          "Databases",
+
+          "IDE's",
+
+          "Other tools and libraries"
+        ]
+      },
+      "html": {
+        "heading": "HTML",
+        "content": [
+          "W zasadzie HTML5. Trudno tutaj mówić o programowaniu... :) Nowości wprowadzone w wersji 5 są mi jak najbardziej znane, aczkolwiek skłamałbym gdybym powiedział, że stosuję wszystkie znaczki tak jak się powinno. Oczywiście staram się nie przesadzać z DIV'ami w kodzie, ale zapamiętanie pełnej semantyki wszystkich nowych znaczników wymaga napisania kilku stron komercyjnie pod tym kierunkiem. W aplikacjach i ćwiczeniach, które do tej pory przerobiłem zwracałem na nie uwagę, ale daleki byłem od wykorzystania ich wszystkich :) ARIA znam i widuję, ale tutaj ze stosowaniem jest podobnie jak z semantyką znaczników. Jedyną rzeczą, w której w ogóle się nie czuję sa znaczniki meta-danych. Nie zagłebiałem się w mechanizmy działania botów i trudno mi się poruszać w świecie meta-danych dla nich przeznaczonych.",
+
+          "Znajomość:",
+
+          "4/6"
+        ]
+      },
+      "css": {
+        "heading": ["CSS", "SASS"],
+        "content": [
+          "Ach... CSS... Nie ukrywam, że bez IntelliSens'a pisanie kodu CSS byłoby trudniejszym zadaniem niżby mogło się wydawać. Najczęściej używane właściwości zapadły mi już dobrze w pamięć, ale jest jeszcze kilka, o których wiem, że istnieją i nawet gdzieś, kiedyś ich użyłem, ale bez drobnej podpowiedzi ze strony IDE by się nie obyło. Ale własnie po to IDE jest!",
+
+          "Z ciekawszych rzeczy dotyczących CSS'a to flex-box jest mi dobrze znany. Gorzej z GRID'em (nie tym bootstrapowym!). Kolejna przydatna rzecz o której czytałem, bądź słyszałem, ale nie miałem potrzeby jej stosować. Wszystko przede mną :) RWD stosuję namiętnie i podchodzę do swoich projektów metodą Mobile-First. Chwilę to zajęło, żeby się przestawić :) Pozostało wspomnieć o rzeczy najważniejszej - metodologii. Szybko zauważyłem, że CSS mimo iż nie jest trudnym tematem to wymaga odpowiedniego podejścia. Bałagan potrafi stworzyć się błyskawicznie. Dlatego, żeby nie wymyślać koła na nowo zapoznałem się z BEM'em oraz OOCSS'em. Oraz po raz kolejny doceniłem modułowość Angulara!",
+
+          "Znajomość:",
+
+          "4/6"
+        ]
+      },
+      "js": {
+        "heading": "JavaScript",
+        "content": [
+          "I tutaj jest pies pogrzebany. Uważam, że trudno jest samemu ocenić rzetelnie swoją wiedzę z tego zakresu. I piszę tutaj o VanillaJS, bez żadnych bibliotek. W trakcie swojej nauki napisałem sporo kodu w tym języku, ale daleko mi od poznania pełni jego potencjału. W wielu kursach JS był spłycony do zapoznania się z DOM'em, a następnie żonglowania querySelectorami i klasami. A im dalej w las szedłem tym bardziej TypeScriptowe drzewa przede mną wyrastały, więc w czystym JS trudno mi określić swój poziom.",
+
+          "Wspomniałem powyżej o VanillaJS. Nie bez powodu. Już na samym początku nauki stwierdziłem, że nie ma sensu zaczynać od nauki zewnętrznych bibliotek. Dopiero, gdy Vanilla nie sprosta wymaganiom, bądź kod stanie się obłędnie zagmatwany to zacznę iść w stronę bibliotek. I okazało się, że bez JQuery da się pisać programy :) Zresztą, gdy dobrze zna się sam język programowania, to nauka wspomagaczy powinna przyjść raczej łatwo. Jak już wcześniej pisałem - to tylko kolejne narzędzie, a gdy zna się już mechanizmy, które za nim stoją to nauka ich nie powinna być wielkim wyzwaniem. Mam nadzieję, że mnie przyszłość brzydko nie zaskoczy w tym temacie... :) No i dodatkowo TypeScript, który ratuje składnie JS'a.",
+
+          "Znajomość:",
+
+          "3+/6"
+        ]
+      },
+      "angular": {
+        "heading": "Angular 2+",
+        "content": [
+          "Swoje zmagania z Angular'em zacząłem od wersji 9 tegoż frameworka. Niestety w trakcie nauki napotkałem na zbyt wiele problemów z zewnętrznymi bibliotekami i silnikiem Ivy, więc szybko cofnąłem się do wersji 8 i na niej pracuję do teraz. Opanowałem całkiem sporą dawkę materiału zahaczającą o zagadnienia zaawansowane. Przynajmniej tak to kursy opisywały :) Pisanie własnych dyrektyw czy pipe'ow, konfiguracja route'ów, binding zmiennych, obsługa eventów, angularowe dyrektywy, operacje na layoucie, kofiguracja przez pliki .json, testy jednostkowe pisane w Jasmine... No... Umiem :) Jedyne co próbowałem i nie udało mi się tego opanować to Angular Material. Zdecydowanie nie spodobało mi się to jak Material jest skonstruowany. I nie nadrabia tego nawet to jak wyglądają komponenty, których on dostarcza. Ale z pewnością pochylę się nad samym Material Design, gdyż przynajmniej z tego co do tej pory widziałem, jest to bardzo fajne narzędzie.",
+        
+          "Znajomość:",
+
+          "3/6"
+        ]
+      },
+      "databases": {
+        "heading": "Bazy danych",
+        "content": [
+          "Jak już wspomniałem w tym miejscu w trakcie wyboru specjalizacji próbowałem troszkę pisania programów back-end'owych. Tam też zapoznałem się z EntityFramework i relacyjnymi bazami danych, które uważam za po prostu świetne. Jakoś lepiej się w nich odnajdywałem niż w bazach nierelacyjnych. Ale i tych drugich nie sposób było pominąć w trakcie nauki. Popularne i szybkie, wystarczające w zaskakująco dużej ilości aplikacji. Prostsze w nauce i obsłudze. Jak do tej pory ze wszystkich dostępnych modeli baz nierelacyjnych zapoznałem się z Key-Value Pair (czymże to się różni od JSON'a?) oraz Document-Model. Z racji darmowego hostingu i fajnych możliwości póki co operowałem wyłącznie na google'owskim Firebase, ale wiem, że nie uniknę zapoznania się z kilkoma innymi dostawcami.",
+
+          "Znajomość (relacyjne):",
+          
+          "2/6",
+
+          "Znajomość (nierelacyjne):",
+
+          "3/6"
+        ]
+      },
+      "ide": {
+        "heading": "Środowiska programistyczne",
+        "content": [
+          "Tutaj dużo nie eksperymentowałem - Visual Studio Community oraz Visual Studio Code. Na Code padło, gdyż z Visual Studio miałem doczynienia już wcześniej. I był to wybór nader trafny, gdyż jak się później dowiedziałem nie ma chyba popularniejszych IDE. W jednym z kursów usłyszałem coś co bardzo mi się spodobało i utwierdziło mnie w czymś czego w pewien sposób nauczyłem się w swoim poprzednim zawodzie: PROGRAMISTA NIE UŻYWA MYSZKI! :) Oczywiście programowanie sterowników logicznych ma niewiele wspólnego z programowaniem aplikacji webowych czy desktopowych i tam bez myszki ani rusz - ale usilnie minimalizowałem konieczność sięgania po nią. Za to przy pracy z VSC doceniam to, ile można zrobić przy użyciu wyłącznie klawiatury (przy czym nie lubię tworzyć własnych skrótów - jakoś łatwiej zapamiętuje gotowe kombinacje...) i snippetów.",
+
+          "Znajomość:",
+
+          "4/6"
+        ]
+      },
+      "others": {
+        "heading": "Pozostałe biblioteki i narzędzia",
+        "content": [
+          "Tutaj będzie krótko, bo i jakoś wielkiego zasobu bibliotek w swoim portfolio nie mam. Ot Bootstrap w wersji 4 i jego świetnie dopasowany do RWD GRID System. RxJS, bo i nie da się napisać aplikacji bez operacji asynchronicznych. HammerJS, bo i jaka strona jest przeznaczona tylko na desktop (no naciągnąłem tutaj... wiem...). Do dopełnienia całości Fontawesome i Google Fonts.",
+
+          "Z narzędzi swojego czasu zapoznałem się z CodePenem, który uważam za fajny sandbox, gdy już zbierze się w nas dość kreatywność, aby wylać ją na ekran komputera :) Standardowo jeszcze GIT, którego znam raczej w stopniu podstawowym - znaczy stworze commit'a, branch'a, połącze branch'e i jak trzeba to otworze konsolę. Zdaję sobie sprawę, że Git oferuje dużo więcej, ale w pojedynkę trudno było tego wszystkiego się uczyć. W tym miejscu przychylam się ku zasadzie, że człowiek najlepiej uczy się poprzez pracę. I jak zajdzie potrzeba to i tych bardziej zaawansowanych rzeczy się nauczę :)",
+
+          "Znajomość (Bootstrap): ",
+
+          "4/6",
+
+          "Znajomość (RxJS):",
+
+          "4/6",
+
+          "Znajomość (GIT):",
+
+          "2/6"
+        ]
+      }
+    },
+
+    "projects": {
+      "introduction": {
+        "heading": "",
+        "content": [
+          "Hey! Here You can find some information about projects which i already done. The list is not so impressive at the time, but i'm still doing somethig so updates comes each moment! ;) Projects are sorted from lateast to oldest."
+        ]
+      },
+      "mapLinks": {
+        "heading": "",
+        "content": [
+          "Strona ze śmiesznymi obrazkami",
+
+          "To-Do App",
+
+          "Portfolio"
+        ]
+      },
+      "stronaZeSmiesznymiObrazkami": {
+        "heading": "Strona ze śmiesznymi obrazkami",
+        "content": [
+          "Taaaak... zawsze czegoś do końca nie przemyślę. W tym przypadku była to nazwa strony... :) Jak poprzednie projekty także i ten został napisany w Angular 8 z wykorzystaniem RxJS'a, Bootstrapa oraz Firebase. Obecnie projekt nie jest nigdzie hostowany, bo kilka rzeczy jest jeszcze niedokończonych. Ale udostępniam go już w tym stadium ponieważ jest to wiedza, którą wyniosłem z czytania książek wymienionych o tutaj . Znaczy się trochę OOP, trochę czystego kodu, trochę czystej architekury. Dalsze rozwijanie kodu tej strony to czysta przyjemność i raczej formalność. I to właśnie dzięki literaturze pana Roberta C. Martina! Polecam każdemu :)",
+
+          "Kod tej strony jest czymś co chciałbym Ci zaprezentować - w przeciwieństwie do kodu źródłowego ToDo App! Ale nie usuwam nic z dwóch powodów.",
+
+          "Po pierwsze",
+
+          "Dzięki temu mogę pokazać swój progress z ostatnich dwóch miesięcy nauki. Testy, zasady dotyczące clean code, podstawy OOP i bardziej przemyślanej architektury.",
+
+          "Po drugie",
+
+          "ToDo App należy poddać gruntownemu refactoringowi. Być może nawet przepisaniu od nowa (dawno tam nie zaglądałem i trochę się tego boję). Chcę zaznaczyć ten fakt wyraźnie i jednoznacznie w przypadku, gdyby nie była to Twoja pierwsza wizyta na tej stronie :)",
+
+          "Link do GitHub'a"
+        ]
+      },
+      "toDoApp": {
+        "heading": "ToDo App",
+        "content": [
+          "Prosta ToDo lista, napisana z wykorzystaniem Angular 8, RxJS, Bootstrap 4 i ngBootstrap 5. W projekcie brakuje testów jednostkowych - pisanie apki zacząłem z myślą, że będzie to tylko ćwiczenie, a nie publikacja do portfolio - dlatego też nie przemyślałem do końca struktury oraz w ogóle pominąłem testy. Ostatecznie ilość kodu na tyle się rozrosła, że zdecydowałem się na publikację aplikacji w portfolio.",
+
+          "W planach miałem dodanie jeszcze kilku funkcjonalności, ale nie jestem pewien czy obecna struktura programu mi na to pozwoli - wpierw wolałbym przepisać na nowo kilka elementów oraz zmienić Firebase Database na Firebase Cloud.",
+
+          "Słowem podsumowania - aplikacja działa, ale z racji, że był to mój pierwszy większy projekt to daleko mu do ideału. Kod znajdujący się w repo wolałbym, żeby został potraktowany raczej w celach weryfikacji postępów, niż ostatecznej oceny moich umiejętności.",
+
+          "Link do GitHub'a",
+
+          "Link do hostingu"
+        ]
+      },
+      "portfolio": {
+        "heading": "Portfolio",
+        "content": [
+          "Nic mniej, nic więcej niż kod źródłowy tej strony. Napisana z wykorzystaniem Angulara (trochę jak strzelanie z armaty do komara) i Bootstrapa 4. W pełni responsywna. W przyszłości będzie jeszcze rozwijana, ale nie wiem jeszcze czy na tym szablonie.",
+
+          "Link do GitHub'a"
+        ]
+      }
+    }
+  }
+}

@@ -1,4 +1,6 @@
 import { Component, OnInit, ViewChild, ElementRef, OnDestroy } from '@angular/core';
+import { Observable } from 'rxjs';
+import { LanguageService } from 'src/app/services/language.service';
 
 @Component({
   selector: 'brief',
@@ -6,8 +8,11 @@ import { Component, OnInit, ViewChild, ElementRef, OnDestroy } from '@angular/co
   styleUrls: ['./brief.component.sass']
 })
 export class BriefComponent {
+  texts: any = null;
 
-  @ViewChild("wrapper", {static: true}) wrapperEl: ElementRef<HTMLDivElement>;
-
-  constructor() { }
+  constructor(private lang: LanguageService ) { 
+    this.lang.textsJson$.subscribe(t => 
+      this.texts = t.values.brief
+    );
+  }
 }

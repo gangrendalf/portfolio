@@ -8,7 +8,7 @@
     border-bottom: 2px solid blue
     background-image: linear-gradient(45deg, #ccc, #fff, #eee)
     box-shadow: 2px 2px 25px 3px deepskyblue
-    transition: box-shadow $global-transition-time, height $global-transition-time
+    transition: box-shadow $global-transition-time, height $global-transition-time ease-out
 
 #logoProfession
     transition: height $global-transition-time, font-size $global-transition-time
@@ -153,6 +153,15 @@
     100%
         transform: translateY(-2px) rotateZ(135deg)
 
+.btn-language
+    position: absolute
+    right: 4px
+    top: $navigation-bar-height
+    transition: top $global-transition-time ease-out
+
+.navigation-bar--short .btn-language
+    top: 8px
+
 @media ( min-width: $md-breakpoint )
     $navigation-bar-height: 100px //90
     $navigation-bar-height--short: 60px
@@ -246,6 +255,12 @@
         top: 2px
         height: 4px
         box-shadow: 0 0 15px 3px deepskyblue
+
+    .btn-language
+        top: $navigation-bar-height + 1px
+
+    .navigation-bar--short .btn-language
+        top: 14px
 
 @media ( min-width: $md-breakpoint ) and ( max-width: $md-lg-breakpoint )
     li
