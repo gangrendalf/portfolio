@@ -1,9 +1,18 @@
 
 {
-  "language": "Polski",
+  "language": "Angielski",
   "values": {
+    "navigation": {
+      "content": [
+        "Brief",
 
+        "Knowledge",
 
+        "Projects",
+
+        "Contact"
+      ]
+    },
     
     "brief": {
       "introduction": {

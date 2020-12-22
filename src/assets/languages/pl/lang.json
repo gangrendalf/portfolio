@@ -2,8 +2,17 @@
 {
   "language": "Polski",
   "values": {
+    "navigation": {
+      "content": [
+        "O mnie",
 
+        "Wiedza",
 
+        "Projekty",
+
+        "Kontakt"
+      ]
+    },
     
     "brief": {
       "introduction": {
