@@ -13,6 +13,7 @@
             id="menu-container"
             class="menu-container menu-container--hidden">
             <ul 
+                *ngIf="texts"
                 (click)="hideMenuWithDelay(menuContainer, 200)"
                 class="list-group list-unstyled">
                 <li 
