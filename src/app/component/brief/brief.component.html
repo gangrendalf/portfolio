@@ -4,123 +4,85 @@
     </div>
     <div class="col" *ngIf="texts">
         <article>
-            <section class="section-title">
-                <h2>{{ texts.introduction.heading  }}</h2>
-                <p>
-                    {{ texts.introduction.content  }}
-                </p>
+            <section>
+                <div class="section-title">
+                    <h2 [innerHTML]="texts.introduction.heading"></h2>
+                    <p [innerHTML]="texts.introduction.content"></p>
+                </div>
+                <div class="section-body">
+                    <ul class="list-group-flush">
+                        <li class="list-group-item">
+                            <a 
+                                routerLink="/brief" 
+                                fragment="section_one"
+                                class="link--underline"
+                                [innerHTML]="texts.mapLinks.content[0]"
+                            ></a>
+                        </li>
+                        <li class="list-group-item">
+                            <a 
+                                routerLink="/brief"
+                                fragment="section_two"
+                                class="link--underline"
+                                [innerHTML]="texts.mapLinks.content[1]"
+                            ></a>
+                        </li>
+                        <li class="list-group-item">
+                            <a 
+                                routerLink="/brief" 
+                                fragment="section_three"
+                                class="link--underline"
+                                [innerHTML]="texts.mapLinks.content[2]"
+                            ></a>
+                        </li>
+                        <li class="list-group-item">
+                            <a 
+                                routerLink="/brief" 
+                                fragment="section_four"
+                                class="link--underline"
+                                [innerHTML]="texts.mapLinks.content[3]"
+                            ></a>
+                        </li>
+                    </ul>
+                </div>
             </section>
-            <section class="section-body">
-                <ul class="list-group-flush">
-                    <li class="list-group-item">
-                        <a 
-                            routerLink="/brief" 
-                            fragment="section_one"
-                            class="link--underline"
-                            >{{ texts.mapLinks.content[0] }}
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a 
-                            routerLink="/brief"
-                            fragment="section_two"
-                            class="link--underline"
-                            >{{ texts.mapLinks.content[1] }}
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a 
-                            routerLink="/brief" 
-                            fragment="section_three"
-                            class="link--underline"
-                            >{{ texts.mapLinks.content[2] }}
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a 
-                            routerLink="/brief" 
-                            fragment="section_four"
-                            class="link--underline"
-                            >{{ texts.mapLinks.content[3] }}
-                        </a>
-                    </li>
-                </ul>
+            <article-separator></article-separator>
+            <section id="section_one">
+                <h2 [innerHTML]="texts.chapter1.heading" class="section-title"></h2>
+                <div class="section-body">
+                    <p [innerHTML]="texts.chapter1.content[0]"></p>
+                    <p [innerHTML]="texts.chapter1.content[1]"></p>
+                </div>
             </section>
-            <article-separator id="section_one"></article-separator>
-            <section class="section-title">
-                <h2>
-                    {{ texts.chapter1.heading }}
-                </h2>
+            <article-separator></article-separator>
+            <section id="section_two">
+                <h2 [innerHTML]="texts.chapter2.heading" class="section-title"></h2>
+                <div class="section-body">
+                    <p [innerHTML]="texts.chapter2.content[0]"></p>
+                    <p [innerHTML]="texts.chapter2.content[1]"></p>
+                </div>
             </section>
-            <section class="section-body">
-                <p>
-                    {{ texts.chapter1.content[0] }}
-                </p>
-                <p>
-                    {{ texts.chapter1.content[1] }}
-
-                </p>
+            <article-separator></article-separator>
+            <section id="section_three">
+                <h2 [innerHTML]="texts.chapter3.heading" class="section-title"></h2>
+                <div class="section-body">
+                    <p [innerHTML]="texts.chapter3.content[0]"></p>
+                    <p [innerHTML]="texts.chapter3.content[1]"></p>
+                </div>
             </section>
-            <article-separator id="section_two"></article-separator>
-            <section class="section-title">
-                <h2>
-                    {{ texts.chapter2.heading }}
-                </h2>
-            </section>
-            <section class="section-body">
-                <p>
-                    {{ texts.chapter2.content[0] }}
-                </p>
-                <p>
-                    {{ texts.chapter2.content[1] }}
-                </p>
-            </section>
-            <article-separator id="section_three"></article-separator>
-            <section class="section-title">
-                <h2>
-                    {{ texts.chapter3.heading }}
-                </h2>
-            </section>
-            <section class="section-body">
-                <p>
-                    {{ texts.chapter3.content[0] }}
-                </p>
-                <p>
-                    {{ texts.chapter3.content[1] }}
-                </p>
-                <p>
-                    {{ texts.chapter3.content[2] }}
-                </p>
-            </section>
-            <article-separator id="section_four"></article-separator>
-            <section class="section-title">
-                <h2>
-                    {{ texts.chapter4.heading }}
-                </h2>
-            </section>
-            <section class="section-body">
-                <p>
-                    {{ texts.chapter4.content[0] }}
-                </p>
-                <br>
-                <h5 id="update_22_11_2020">
-                    <i> {{ texts.chapter4update1.heading }}</i>
-                </h5>
-                <br>
-                <p>
-                    {{ texts.chapter4update1.content[0] }}
-                </p>
-                <ul class="list-group list-group-flush list-unstyled">
-                    <li class="list-group-item">
-                        <i><strong>{{ texts.chapter4update1.content[1] }}</strong> {{ texts.chapter4update1.content[2] }}</i>
-                    </li>
-                    <li class="list-group-item">
-                        <i><strong>{{ texts.chapter4update1.content[3] }}</strong> {{ texts.chapter4update1.content[4] }}</i>
-                    </li>
-                </ul>
-                <p>
-                    {{ texts.chapter4update1.content[5] }}
-                </p>
+            <article-separator></article-separator>
+            <section id="section_four">
+                <h2 [innerHTML]="texts.chapter4.heading" class="section-title"></h2>
+                <div class="section-body">
+                    <p [innerHTML]="texts.chapter4.content[0]"></p>
+                    <h4 [innerHTML]="texts.chapter4update1.heading" id="update_22_11_2020" class="my-5"></h4>
+                    <p [innerHTML]="texts.chapter4update1.content[0]"></p>
+                    <ul class="list-group list-group-flush list-unstyled my-5">
+                        <li [innerHTML]="texts.chapter4update1.content[1]" class="list-group-item"></li>
+                        <li [innerHTML]="texts.chapter4update1.content[2]" class="list-group-item"></li>
+                    </ul>
+                <p [innerHTML]="texts.chapter4update1.content[3]"></p>
+                </div>
             </section>
             <article-separator></article-separator>
             <section class="d-flex justify-content-center">

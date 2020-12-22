@@ -22,6 +22,7 @@ import { AngularFireModule } from '@angular/fire';
 import { environment } from 'src/environments/environment.prod';
 
 import { HttpClientModule } from '@angular/common/http';
+import { LangMarkupPipe } from './pipes/lang-markup.pipe';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { HttpClientModule } from '@angular/common/http';
     ContactComponent,
     PageNotFoundComponent,
     ArticleSeparatorComponent,
-    AboutAuthorCardComponent
+    AboutAuthorCardComponent,
+    LangMarkupPipe
   ],
   imports: [
     BrowserModule,
