@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Section4SeparatorComponent } from './section-separator.component';
+import { SectionSeparatorComponent } from './section-separator.component';
 
 describe('ArticleSeparatorComponent', () => {
-  let component: Section4SeparatorComponent;
-  let fixture: ComponentFixture<Section4SeparatorComponent>;
+  let component: SectionSeparatorComponent;
+  let fixture: ComponentFixture<SectionSeparatorComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ Section4SeparatorComponent ]
+      declarations: [ SectionSeparatorComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(Section4SeparatorComponent);
+    fixture = TestBed.createComponent(SectionSeparatorComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
