@@ -4,118 +4,93 @@
     </div>
     <div class="col" *ngIf="texts">
         <article>
-            <section class="section-map">
-                <p>
-                    {{ texts.introduction.content }}
-                </p>
-                <ul class="list-group-flush">
-                    <li class="list-group-item">
-                        <a 
-                            routerLink="/projects" 
-                            fragment="section_one"
-                            class="link--underline"
-                            >{{ texts.mapLinks.content[0] }}
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a 
-                            routerLink="/projects" 
-                            fragment="section_two"
-                            class="link--underline"
-                            >{{ texts.mapLinks.content[1] }}
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a 
-                            routerLink="/projects" 
-                            fragment="section_three"
-                            class="link--underline"
-                            >{{ texts.mapLinks.content[2] }}
-                        </a>
-                    </li>
-                </ul>
+            <section>
+                <div class="section-title">
+                    <p [innerHTML]="texts.introduction.content"></p>
+                </div>
+                <div class="section-body">
+                    <ul class="list-group-flush">
+                        <li class="list-group-item">
+                            <a 
+                                routerLink="/projects" 
+                                fragment="section_one"
+                                class="link--underline"
+                                [innerHTML]="texts.mapLinks.content[0]"
+                            ></a>
+                        </li>
+                        <li class="list-group-item">
+                            <a 
+                                routerLink="/projects" 
+                                fragment="section_two"
+                                class="link--underline"
+                                [innerHTML]="texts.mapLinks.content[1]"
+                            ></a>
+                        </li>
+                        <li class="list-group-item">
+                            <a 
+                                routerLink="/projects" 
+                                fragment="section_three"
+                                class="link--underline"
+                                [innerHTML]="texts.mapLinks.content[2]"
+                            ></a>
+                        </li>
+                    </ul>
+                </div>
             </section>
-            <section-separator id="section_one"></section-separator>
-            <section class="section-title" >
-                <h2>
-                    {{ texts.stronaZeSmiesznymiObrazkami.heading }}
-                </h2>
+            <section-separator></section-separator>
+            <section id="section_one">
+                <div class="section-title">
+                    <h2 [innerHTML]="texts.stronaZeSmiesznymiObrazkami.heading"></h2>
+                </div>
+                <div class="section-body">
+                    <p [innerHTML]="texts.stronaZeSmiesznymiObrazkami.content[0]"></p>
+                    <ngb-carousel *ngIf="stronaZObrazkamiCarouselDataSource as images" class="my-5">
+                        <ng-template ngbSlide *ngFor="let image of images; let i = index;">
+                            <div class="picsum-img-wrapper">
+                                <img [src]="images[i]" alt="Random first slide">
+                            </div>
+                        </ng-template>
+                    </ngb-carousel>
+                    <p [innerHTML]="texts.stronaZeSmiesznymiObrazkami.content[1]"></p>
+                    <h5 [innerHTML]="texts.stronaZeSmiesznymiObrazkami.content[2]"></h5>
+                    <p [innerHTML]="texts.stronaZeSmiesznymiObrazkami.content[3]"></p>
+                    <h5 [innerHTML]="texts.stronaZeSmiesznymiObrazkami.content[4]"></h5>
+                    <p [innerHTML]="texts.stronaZeSmiesznymiObrazkami.content[5]"></p>
+                    <p>
+                        <a 
+                            href="https://github.com/gangrendalf/strona-ze-smiesznymi-obrazkami" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            class="link--underline"
+                            [innerHTML]="texts.stronaZeSmiesznymiObrazkami.content[6]"
+                        ></a>
+                    </p>
+                </div>
             </section>
-            <section class="section-body">
-                <p>
-                    {{ texts.stronaZeSmiesznymiObrazkami.content[0] }}
-                </p>
-                <br>
-                    <div>
-                        <ngb-carousel *ngIf="stronaZObrazkamiCarouselDataSource as images">
-                            <ng-template ngbSlide *ngFor="let image of images; let i = index;">
-                                <div class="picsum-img-wrapper">
-                                    <img [src]="images[i]" alt="Random first slide">
-                                </div>
-                            </ng-template>
-                        </ngb-carousel>
-                    </div>
-                <br>
-                <p>
-                    {{ texts.stronaZeSmiesznymiObrazkami.content[1] }}
-                </p>
-                <h5>
-                    <i><b>{{ texts.stronaZeSmiesznymiObrazkami.content[2] }}</b></i>
-                </h5>
-                <p>
-                    {{ texts.stronaZeSmiesznymiObrazkami.content[3] }}
-                </p>
-                <h5>
-                    <i><b>{{ texts.stronaZeSmiesznymiObrazkami.content[4] }}</b></i>
-                </h5>
-                <p>
-                    {{ texts.stronaZeSmiesznymiObrazkami.content[5] }}
-                </p>
-                <p>
-                    <a 
-                        href="https://github.com/gangrendalf/strona-ze-smiesznymi-obrazkami" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        class="link--underline"
-                        >{{ texts.stronaZeSmiesznymiObrazkami.content[6] }}
-                    </a>
-                </p>
-            </section>
-            <section-separator id="section_two"></section-separator>
-                <section class="section-title" >
-                    <h2>
-                        {{ texts.toDoApp.heading }}
-                    </h2>
-                </section>
-                <section class="section-body">
-                    <p>
-                        {{ texts.toDoApp.content[0] }}
-                    </p>
-                    <p>
-                        {{ texts.toDoApp.content[1] }}
-                    </p>
-                    <br>
-                    <div>
-                        <ngb-carousel *ngIf="todoListCarouselDataSource as images">
-                            <ng-template ngbSlide *ngFor="let image of images; let i = index;">
-                                <div class="picsum-img-wrapper">
-                                    <img [src]="images[i]" alt="Random first slide">
-                                </div>
-                            </ng-template>
-                        </ngb-carousel>
-                    </div>
-                    <br>
-                    <p>
-                        {{ texts.toDoApp.content[2] }}
-                    </p>
+            <section-separator></section-separator>
+            <section id="section_two">
+                <div class="section-title">
+                    <h2 [innerHTML]="texts.toDoApp.heading"></h2>
+                </div>
+                <div class="section-body">
+                    <p [innerHTML]="texts.toDoApp.content[0]"></p>
+                    <p [innerHTML]="texts.toDoApp.content[1]"></p>
+                    <ngb-carousel *ngIf="todoListCarouselDataSource as images" class="my-5">
+                        <ng-template ngbSlide *ngFor="let image of images; let i = index;">
+                            <div class="picsum-img-wrapper">
+                                <img [src]="images[i]" alt="Random first slide">
+                            </div>
+                        </ng-template>
+                    </ngb-carousel>
+                    <p [innerHTML]="texts.toDoApp.content[2]"></p>
                     <p>
                         <a 
                             href="https://github.com/gangrendalf/to-do-app" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             class="link--underline"
-                            >{{ texts.toDoApp.content[3] }}
-                        </a>
+                            [innerHTML]="texts.toDoApp.content[3]"
+                        ></a>
                     </p>
                     <p>
                         <a 
@@ -123,32 +98,30 @@
                             target="_blank" 
                             rel="noopener noreferrer"
                             class="link--underline"
-                            >{{ texts.toDoApp.content[4] }}
-                        </a>
+                            [innerHTML]="texts.toDoApp.content[4]"
+                        ></a>
                     </p>
-                </section>
-            <section-separator id="section_three"></section-separator>
-                <section class="section-title" >
-                    <h2>
-                        {{ texts.portfolio.heading }}
-                    </h2>
-                </section>
-                <section class="section-body">
-                    <p>
-                        {{ texts.portfolio.content[0] }} 
-                    </p>
+                </div>
+            </section>
+            <section-separator></section-separator>
+            <section id="section_three">
+                <div class="section-title">
+                    <h2 [innerHTML]="texts.portfolio.heading"></h2>
+                </div>
+                <div class="section-body">
+                    <p [innerHTML]="texts.portfolio.content[0]"></p>
                     <p>
                         <a 
                             href="https://github.com/gangrendalf/portfolio" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             class="link--underline"
-                            >{{ texts.portfolio.content[1] }} 
-                        </a>
+                            [innerHTML]="texts.portfolio.content[1]"
+                        ></a>
                     </p>
-                </section>
+                </div>
+            </section>
             <section-separator></section-separator>
-            
             <section class="d-flex justify-content-center">
                 <about-author-card></about-author-card>
             </section>
