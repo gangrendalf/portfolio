@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ArticleSeparatorComponent } from './article-separator.component';
+import { ArticleSeparatorComponent } from './section-separator.component';
 
 describe('ArticleSeparatorComponent', () => {
   let component: ArticleSeparatorComponent;
