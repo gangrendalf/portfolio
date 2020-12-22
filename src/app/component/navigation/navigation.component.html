@@ -23,8 +23,8 @@
                         id="brief-button"
                         class="btn menu-button"
                         type="button"
-                        >Brief
-                    </button>
+                        [innerHTML]="texts.content[0]"
+                    ></button>
                 </li>
                 <li 
                     [routerLink]="['knowledge']"
@@ -34,8 +34,8 @@
                         id="knowledge-button"
                         class="btn menu-button"
                         type="button"
-                        >Knowledge
-                    </button>
+                        [innerHTML]="texts.content[1]"
+                    ></button>
                 </li>
                 <li 
                     [routerLink]="['projects']"
@@ -46,8 +46,8 @@
                         class="btn menu-button"
                         routerLinkActive="active"
                         type="button"
-                        >Projects
-                    </button>
+                        [innerHTML]="texts.content[2]"
+                    ></button>
                 </li>
                 <li 
                     [routerLink]="['contact']"
@@ -57,8 +57,8 @@
                         id="contact-button"
                         class="btn menu-button"
                         type="button"
-                        >Contact
-                    </button> 
+                        [innerHTML]="texts.content[3]"
+                    ></button> 
                 </li>
             </ul>
         </div>
@@ -71,7 +71,10 @@
         </span>
     </div>
     <div class="btn-language">
-        <select class="form-control form-control-sm" (change)="setLang($event.target.value)" [value]="activeLanguage"> 
+        <select 
+            [value]="activeLanguage"
+            (change)="setLang($event.target.value)" 
+            class="form-control form-control-sm"> 
             <option *ngFor="let lang of languages" value="{{ lang }}" >{{ lang }}</option>
         </select>
     </div>

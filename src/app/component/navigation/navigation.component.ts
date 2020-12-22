@@ -16,6 +16,7 @@ export class NavigationComponent {
 
   languages: string[];
   activeLanguage: string;
+  texts: any = null;
 
   @ViewChild('nav', {static: true}) navEl: ElementRef<HTMLDivElement>;
   @ViewChild('menuToggler', {static: true}) menuTogglerEl: ElementRef<HTMLButtonElement>;
@@ -39,6 +40,10 @@ export class NavigationComponent {
 
     this.languages = langService.languages;
     this.activeLanguage = langService.language;
+
+    this.langService.textsJson$.subscribe(t => 
+      this.texts = t.values.navigation
+    );
   }
 
   toggleMenu(content: HTMLDivElement){
