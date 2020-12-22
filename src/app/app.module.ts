@@ -13,7 +13,7 @@ import { ContactComponent } from './component/contact/contact.component';
 import { PageNotFoundComponent } from './component/page-not-found/page-not-found.component';
 
 import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
-import { ArticleSeparatorComponent } from './component/section-separator/section-separator.component';
+import { Section4SeparatorComponent } from './component/section-separator/section-separator.component';
 import { AboutAuthorCardComponent } from './component/about-author-card/about-author-card.component';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -34,7 +34,7 @@ import { LangMarkupPipe } from './pipes/lang-markup.pipe';
     ProjectsComponent,
     ContactComponent,
     PageNotFoundComponent,
-    ArticleSeparatorComponent,
+    Section4SeparatorComponent,
     AboutAuthorCardComponent,
     LangMarkupPipe
   ],

@@ -6,7 +6,7 @@ import { faAsterisk, IconDefinition } from "@fortawesome/free-solid-svg-icons";
   templateUrl: './section-separator.component.html',
   styleUrls: ['./section-separator.component.sass']
 })
-export class ArticleSeparatorComponent implements OnInit {
+export class Section4SeparatorComponent implements OnInit {
   faAsterisk: IconDefinition = faAsterisk;
 
   constructor() { }
