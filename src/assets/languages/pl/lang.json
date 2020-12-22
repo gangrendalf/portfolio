@@ -27,9 +27,9 @@
       "chapter1": {
         "heading": "Kim byłem?",
         "content": [
-          "Inżynierem systemów sterowania, bądź automatykiem - z której strony by nie spojrzeć to pracowałem w przemyśle. Od samego początku mojej zawodowej kariery byłem związany z branżą motoryzacyjną. 5 lat spędziłem na odwiedzając fabryki rozsiane po świecie (od Ameryki Północnej, przez Południową, po Europę). Ale ta strona nie powstała z myślą o prezentacji tego co było, ale tego co jest i co będzie :) Dlatego postaram się skrócić dotychczasowe 5 lat w kilku zaledwie zdaniach.",
+          "Inżynierem systemów sterowania, bądź automatykiem - z której strony by nie spojrzeć to pracowałem w przemyśle. Od samego początku mojej zawodowej kariery byłem związany z branżą motoryzacyjną. 5 lat spędziłem odwiedzając fabryki rozsiane po świecie (od Ameryki Północnej, przez Południową, po Europę). Ale ta strona nie powstała z myślą o prezentacji tego co było, ale tego co jest i co będzie :) Dlatego postaram się skrócić dotychczasowe 5 lat w kilku zaledwie zdaniach.",
   
-          "Moja dotychczasowa praca skupiała się głównie na aspektach związanych z programowaniem sterowników przemysłowych oraz konfigurowaniem urządzeń peryferyjnych i wszelkiej maści komunikacji. Lubiłem to określać jako \"klocki dla dużych chłopców\" :) Uruchamianie wielkich i kosztownych maszyn to był oczywiście stres i ciągłe gonienie terminów, ale też niesamowita frajda, kiedy wszystko zaczynało powoli ożywać. Niestety nierozłącznym elementem projektów, które realizowaliśmy były liczne delegacje, które to ostatecznie zmotywowały mnie do zmiany branży."
+          "Moja praca skupiała się głównie na aspektach związanych z programowaniem sterowników przemysłowych oraz konfigurowaniem urządzeń peryferyjnych i wszelkiej maści komunikacji. Lubiłem to określać jako \"klocki dla dużych chłopców\" :) Uruchamianie wielkich i kosztownych maszyn to był oczywiście stres i ciągłe gonienie terminów, ale też niesamowita frajda, kiedy wszystko zaczynało powoli ożywać. Niestety nierozłącznym elementem projektów, które realizowaliśmy były liczne delegacje, które to ostatecznie zmotywowały mnie do zmiany branży."
         ]
       },
       "chapter2": {
@@ -43,11 +43,9 @@
       "chapter3": {
         "heading": "Dlaczego front-end?",
         "content": [
-          "Lubię, gdy się dzieje! Najlepiej dużo i szybko! Zanim postawiłem ostatecznie na front-end spróbowałem również zapoznać się z backend'em oraz troszkę z Unity. Backend mimo, że ciekawy wydał mi się mało \"dynamiczny\"... Chciałbym się w tym kierunku również rozwinąć w przyszłości, ale chwilowo to odpuściłem, ponieważ wydawaje mi się to bardziej monotonne. No i wyniki pracy nie są tak widoczne jak we front'cie, gdzie rezultat pisanego kody rzuca się od razu w oczy :) Takie przynajmniej odniosłem wrażenie, prawdopodobnie mylne, ale jakoś zdecydować trzeba było! Pisanie gier natomiast było dla mnie na tyle nowym tematem, że nie sądzę, że dałoby się tego dobrze nauczyć w stosunkowo krótkim czasie. Tak więc padło na front-end!", 
+          "Lubię, gdy się dzieje! Najlepiej dużo i szybko! Zanim postawiłem ostatecznie na front-end spróbowałem również zapoznać się z backend'em oraz game-dev. Backend mimo, że ciekawy wydał mi się mało \"dynamiczny\"... Chciałbym się w tym kierunku również rozwinąć w przyszłości, ale na początek wybrałem front-end. <i>UPDATE: Obecnie zaczynam wdrażać również rozwiązania backend'owe w swoich ćwiczeniach. Z pisaniem aplikacji przeglądarkowych idzie mi już na tyle dobrze, że chyba nie muszę poświęcać temu całego swojego czasu. Pora na coś nowego!</i> Pisanie gier natomiast było dla mnie na tyle nowym tematem, że nie sądzę, by dałoby się tego dobrze nauczyć w stosunkowo krótkim czasie. Tak więc padło na front-end!", 
           
-          "Ale, że pisanie layout'u i logiki po stronie klienta to rozległy temat, a sam JS nie wygląda na najbardziej dopieszczony język na świecie to na tym moje poszukiwania nie przestały. Oczywiście samego JS'a umiem, ale nie spełniał on do końca moich wyobrażeń. Dlatego bardzo się ucieszyłem, gdy natknąłem się na TypeScript i Angular'a. Od razu wiedziałem, że to będzie to :) Modułowość, poprawiona składnia, mniej rzeźbienia u podstaw... Angular to jest to! Samego JS'a nie odpuściłem i staram się pogłebiać swoją wiedzę w tym temacie również, ale docelowo chciałbym się w swojej pracy skupić właśnie na Angularze.",
-          
-          "W chwili obecnej szlifuje swoje umiejetności we front-end'ie, ale docelowo nie mam zamiaru się ograniczać tylko do tego. W końcu język programowania (bądź framework) to tylko narzędzie, a umiejętność pisania czystego kodu i myślenia na różnych poziomach abstrakcji przyda się w każdym rodzaju programowania. Za kilka lat, o ile wszystko się potoczy po mojej myśli, chciałbym pracować w charakterze full-stack developera i nie ograniczać się tylko do JS'a i jego pochodnych/rozszerzeń."
+          "Ale, że pisanie layout'u i logiki po stronie klienta to rozległy temat, a sam JS nie wygląda na najbardziej dopieszczony język na świecie to na tym moje poszukiwania nie przestały. Przyjrzałem się trzem najpopularniejszym framework'om na rynku i zdecydowanie najbardziej przypadł mi do gustu Angular."
         ]
       },
       "chapter4": {
@@ -59,17 +57,14 @@
       "chapter4update1": {
         "heading": "UPDATE: 22.11.2020",
         "content": [
-          "Literatura! Uzbroiłem się na początek w dwie książki",
+          "Literatura! Uzbroiłem się na początek w dwie książki:",
   
-          "Czysty kod. Podręcznik dobrego programisty.",
+          "<i><b>Czysty kod. Podręcznik dobrego programisty.</b> Robert C. Martin</i>",
           
-          "Robert C. Martin",
-  
-          "Czysta architektura. Struktura i design oprogramowania. Przewodnik dla profesjonalistów.",
+          "<i><b>Czysta architektura. Struktura i design oprogramowania. Przewodnik dla profesjonalistów.</b> Robert C. Martin</i>",
           
-          "Robert C. Martin",
   
-          "Także same wzorce projektowe zeszły chwilowo na dalszy plan. Oczywiście trochę wiedzy w tym kierunku też zdobyłem, ale nie na tyle aby powiedzieć, że mam je opanowane. Obie wspomniane książki są wręcz rewelacyjne. Pokuszę się o ich krótką recenzję - ale jeszcze nie teraz. Wraz z czytaniem starałem się wprowadzać nowo zdobytą widzę do pisanego kodu (czego efektem jest kolejny projekt w portfolio), ale koniecznie muszę je przewertować od deski do deski jeszcze raz! W trakcie czytania szybko sobie uzmysłowiłem, że moja wiedza o OOP była zdecydowanie zbyt mała - żeby nie powiedzieć znikoma. Ale na szczęście to się szybko zmienia! :)"
+          "Także same wzorce projektowe zeszły chwilowo na dalszy plan. Oczywiście trochę wiedzy w tym kierunku też zdobyłem, ale nie na tyle aby powiedzieć, że mam je opanowane. Obie wspomniane książki są wręcz rewelacyjne. Pokuszę się o ich krótką recenzję - ale jeszcze nie teraz. Wraz z czytaniem starałem się wprowadzać nowo zdobytą widzę do pisanego kodu, ale koniecznie muszę je przewertować od deski do deski jeszcze raz! W trakcie czytania szybko sobie uzmysłowiłem, że moja wiedza o OOP była zdecydowanie zbyt mała - żeby nie powiedzieć znikoma. Ale na szczęście to się szybko zmienia! :)"
         ]
       }
     },
