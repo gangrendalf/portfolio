@@ -9,19 +9,19 @@ import { LanguageService } from 'src/app/services/language.service';
 export class ProjectsComponent {
 
   stronaZObrazkamiCarouselDataSource = [
-    '/assets/projects-presentation/stronaZeSmiesznymiObrazkami/Screenshot_1.png',
-    '/assets/projects-presentation/stronaZeSmiesznymiObrazkami/Screenshot_2.png',
-    '/assets/projects-presentation/stronaZeSmiesznymiObrazkami/Screenshot_3.png',
-    '/assets/projects-presentation/stronaZeSmiesznymiObrazkami/Screenshot_4.png',
-    '/assets/projects-presentation/stronaZeSmiesznymiObrazkami/Screenshot_5.png'
+    '/assets/images/projects/stronaZeSmiesznymiObrazkami/Screenshot_1.png',
+    '/assets/images/projects/stronaZeSmiesznymiObrazkami/Screenshot_2.png',
+    '/assets/images/projects/stronaZeSmiesznymiObrazkami/Screenshot_3.png',
+    '/assets/images/projects/stronaZeSmiesznymiObrazkami/Screenshot_4.png',
+    '/assets/images/projects/stronaZeSmiesznymiObrazkami/Screenshot_5.png'
   ];
 
   todoListCarouselDataSource = [
-    '/assets/projects-presentation/ToDoApp/Screenshot_1.png',
-    '/assets/projects-presentation/ToDoApp/Screenshot_2.png',
-    '/assets/projects-presentation/ToDoApp/Screenshot_3.png',
-    '/assets/projects-presentation/ToDoApp/Screenshot_4.png',
-    '/assets/projects-presentation/ToDoApp/Screenshot_5.png'
+    '/assets/images/projects/ToDoApp/Screenshot_1.png',
+    '/assets/images/projects/ToDoApp/Screenshot_2.png',
+    '/assets/images/projects/ToDoApp/Screenshot_3.png',
+    '/assets/images/projects/ToDoApp/Screenshot_4.png',
+    '/assets/images/projects/ToDoApp/Screenshot_5.png'
   ];
 
   texts: any = null;

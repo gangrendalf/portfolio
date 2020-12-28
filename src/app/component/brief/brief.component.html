@@ -51,6 +51,15 @@
                 <h2 [innerHTML]="texts.chapter1.heading" class="section-heading"></h2>
                 <div class="section-body">
                     <p [innerHTML]="texts.chapter1.content[0]"></p>
+                    <div>
+                        <ngb-carousel *ngIf="chapterOneDataSource as images" class="my-5" [interval]="2000">
+                            <ng-template ngbSlide *ngFor="let image of images; let i = index;">
+                                <div class="picsum-img-wrapper">
+                                    <img [src]="images[i]" alt="Random first slide">
+                                </div>
+                            </ng-template>
+                        </ngb-carousel>
+                    </div>
                     <p [innerHTML]="texts.chapter1.content[1]"></p>
                 </div>
             </section>

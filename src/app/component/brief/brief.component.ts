@@ -10,6 +10,13 @@ import { LanguageService } from 'src/app/services/language.service';
 export class BriefComponent {
   texts: any = null;
 
+  chapterOneDataSource = [
+    '/assets/images/brief/breif_past_1.jpg',
+    '/assets/images/brief/breif_past_2.jpg',
+    '/assets/images/brief/breif_past_3.jpg',
+    '/assets/images/brief/breif_past_4.jpg'
+  ]
+
   constructor(private lang: LanguageService ) { 
     this.lang.textsJson$.subscribe(t => 
       this.texts = t.values.brief
