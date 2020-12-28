@@ -23,6 +23,8 @@ import { environment } from 'src/environments/environment.prod';
 
 import { HttpClientModule } from '@angular/common/http';
 import { LangMarkupPipe } from './pipes/lang-markup.pipe';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 @NgModule({
   declarations: [
@@ -44,7 +46,9 @@ import { LangMarkupPipe } from './pipes/lang-markup.pipe';
     AngularFireModule.initializeApp(environment.firebaseConfig),
     FontAwesomeModule,
     NgbModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    CarouselModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
