@@ -1,6 +1,6 @@
 
 {
-  "language": "Angielski",
+  "language": "English",
   "values": {
     "navigation": {
       "content": [
@@ -18,7 +18,7 @@
       "introduction": {
         "heading": "Introduction",
         "content": [
-          "Hey! Welcome to my page! Below You find some details about me - more personal than profession-related."
+          "Hi! Welcome to my web-site! Below You can find some details about me - more personal than profession-related."
         ]
       },
       "mapLinks": {
@@ -30,37 +30,49 @@
   
           "Why front-end?",
   
-          "How do I get knowledge?"
+          "How did i learn?"
         ]
       },
       "chapter1": {
-        "heading": "Kim byłem?",
+        "heading": "Who I was?",
         "content": [
-          "Not translated yet"
+          "Control systems engineer or automation specialist - whichever way You look at it I worked in industry. From the very beginning my profession was strictly pointed into automotive. I have spent 5 long years visiting factories all over the globe (from Europe, through North America, to South America). But this site was created with the present and the future in mind, not the past, therefore I will try condense all these 5 years in just a few words.",
+
+          "My main responsibility as a control system engineer was configuring and programming of programmable logic controlers (PLC's) with all the pheripherals which automotive industry use - including industrail-communication equipment. I used to call it \"toys for big boys\" :)  Sadly major part of commissioning of huge and expensive automated machines was stress and all the time delays in the schedule. Beside of that it was also a loooot of fun when these machines were finally come alive :) Each project meant a business trip as well - long weeks far away from home. That was the thing which finally makes me quit automation specialist profession."
         ]
       },
       "chapter2": {
-        "heading": "Kim jestem?",
+        "heading": "Who I am?",
         "content": [
-          "Not translated yet"
+          "An automation specialist by profession, a software developer by passion :) Cheerful and looking for a challenges. Sometimes a bit impatient. But any time willing to help! Okey, enough of superlatives :)",
+
+          "Currently I'm looking for my first job as a front-end developer. Unfortunately i had no oportunity to get any commercial experience yet. That's why it is hard for me to say more about my triumphs as a developer. I have to confess that a year ago I would not have even thought that I would find myself in such situation like I am now. Of course I had in mind one day i will change profession but not so early and not so spontaneously:) "
         ]
       },
       "chapter3": {
-        "heading": "Dlaczego front-end?",
+        "heading": "Why front-end?",
         "content": [
-          "Not translated yet"
+          "I like it when a lot happens. Best when much and fast! Before I finally decide to join the front-end community I had to find out what exactly back-end and game-dev are. Just to get perspective. Back-end - which I find interesting and one day I would like to learn it - it seems less... \"dynamic\"... <i>UPDATE: At the moment, I am also including back-end solutions in my projects. I'm doing so well with front-end development that I don't feel the need to spend all my time on it. Looks like it is the time for something new!</i> Game-dev from the other hand is so different from the things what I know that I don't think that is possible to learn it well in relatively short time. So... That's how I chose front-end!",
+
+          "But! Writing a client-side web-apps is wide enough topic to get headache and JS doesn't look like the programmer's best dream. Therefore i didn't stop search my future role in IT and I took a closer look into three most popular front-end's frameworks. The one what I feel the most is Angular. "
         ]
       },
       "chapter4": {
-        "heading": "Jak zdobywałem wiedzę?",
+        "heading": "How did I learn?",
         "content": [
-          "Not translated yet"
+          "Time for the easiest part :) After I pointed out my goals I have checked out courses and bootcamps for junior developers. Unfortunately I found all of them definitely too stretched over time. And additionally they didn't fulfill my expectations - i had some basics with C# and basics of OOP from my previous job. So i had to start digging out in online courses. Finally I bought and made many video-courses from Udemy. With the knowledge I got from Udemy I have started with my own exercises and projects. And so i found out MDN, StackOverflow and many many many many... more. A lot of reading, writing, watching and listening and looks like it is not over! Especially that the next thing on my to-do list are design patterns. Uncle Bob is waiting!"
         ]
       },
       "chapter4update1": {
         "heading": "UPDATE: 22.11.2020",
         "content": [
-          "Not translated yet"
+          "Books! I have got two titles:",
+
+          "<i><b>Clean Code. A Handbook of Agile Software Craftmanship</b> Robert C. Martin</i>",
+
+          "<i><b>Clean Architecture. A Craftsman's Guide to Software Structure and Design</b> Robert C. Martin</i>",
+
+          "Both of them are just great! One day I going to write short review but forst i have to read both of them once again. During forst reading i had try to improve my code with all the clues from those books. Honestly, during reading I quickly realized that my knowledge about OOP was definitely too little. But luckly it is changing rapidly :)"
         ]
       }
     },
