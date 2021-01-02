@@ -36,9 +36,9 @@
       "chapter1": {
         "heading": "Who I was?",
         "content": [
-          "Control systems engineer or automation specialist - whichever way You look at it I worked in industry. From the very beginning my profession was strictly pointed into automotive. I have spent 5 long years visiting factories all over the globe (from Europe, through North America, to South America). But this site was created with the present and the future in mind, not the past, therefore I will try condense all these 5 years in just a few words.",
+          "Control systems engineer or automation specialist - whichever way You look at it I worked in industry. From the very beginning my profession was strictly pointed into automotive. I spent 5 long years visiting factories all over the globe (from Europe, through North America, to South America). But this site was created with the present and the future in mind, not the past, therefore I will try condense all these 5 years in just a few words.",
 
-          "My main responsibility as a control system engineer was configuring and programming of programmable logic controlers (PLC's) with all the pheripherals which automotive industry use - including industrail-communication equipment. I used to call it \"toys for big boys\" :)  Sadly major part of commissioning of huge and expensive automated machines was stress and all the time delays in the schedule. Beside of that it was also a loooot of fun when these machines were finally come alive :) Each project meant a business trip as well - long weeks far away from home. That was the thing which finally makes me quit automation specialist profession."
+          "My main responsibility as a control system engineer was configuring and programming of programmable logic controlers (PLC's) with all the pheripherals which automotive industry use - including industrail-communication equipment. I used to call it \"toys for big boys\" :)  Sadly major part of commissioning of huge and expensive automated machines was stress and all the time delays in the schedule. Beside of that it was also a loooot of fun when these machines were finally come alive :) Each project have meant a business trip as well - long weeks far away from home. That was the thing which finally makes me quit automation specialist profession."
         ]
       },
       "chapter2": {
@@ -46,13 +46,13 @@
         "content": [
           "An automation specialist by profession, a software developer by passion :) Cheerful and looking for a challenges. Sometimes a bit impatient. But any time willing to help! Okey, enough of superlatives :)",
 
-          "Currently I'm looking for my first job as a front-end developer. Unfortunately i had no oportunity to get any commercial experience yet. That's why it is hard for me to say more about my triumphs as a developer. I have to confess that a year ago I would not have even thought that I would find myself in such situation like I am now. Of course I had in mind one day i will change profession but not so early and not so spontaneously:) "
+          "Currently I'm looking for my first job as a front-end developer. Unfortunately I had no oportunity to get any commercial experience yet. That's why it is hard for me to say more about my triumphs as a developer. I have to confess that a year ago I would not have even thought that I would find myself in such situation like I am now. Of course I had in mind one day I will change profession but not so early and not so spontaneously:) "
         ]
       },
       "chapter3": {
         "heading": "Why front-end?",
         "content": [
-          "I like it when a lot happens. Best when much and fast! Before I finally decide to join the front-end community I had to find out what exactly back-end and game-dev are. Just to get perspective. Back-end - which I find interesting and one day I would like to learn it - it seems less... \"dynamic\"... <i>UPDATE: At the moment, I am also including back-end solutions in my projects. I'm doing so well with front-end development that I don't feel the need to spend all my time on it. Looks like it is the time for something new!</i> Game-dev from the other hand is so different from the things what I know that I don't think that is possible to learn it well in relatively short time. So... That's how I chose front-end!",
+          "I like it when a lot happens. Best when much and fast! Before I finally decided to join the front-end community I had to found out what exactly back-end and game-dev are. Just to get perspective. Back-end - which I find interesting and one day I would like to learn it - it seems less... \"dynamic\"... <i>UPDATE: At the moment, I am also including back-end solutions in my projects. I'm doing so well with front-end development that I don't feel the need to spend all my time on it. Looks like it is the time for something new!</i> Game-dev from the other hand is so different from the things what I know that I don't think that is possible to learn it well in relatively short time. So... That's how I chose front-end!",
 
           "But! Writing a client-side web-apps is wide enough topic to get headache and JS doesn't look like the programmer's best dream. Therefore i didn't stop search my future role in IT and I took a closer look into three most popular front-end's frameworks. The one what I feel the most is Angular. "
         ]
@@ -60,7 +60,7 @@
       "chapter4": {
         "heading": "How did I learn?",
         "content": [
-          "Time for the easiest part :) After I pointed out my goals I have checked out courses and bootcamps for junior developers. Unfortunately I found all of them definitely too stretched over time. And additionally they didn't fulfill my expectations - i had some basics with C# and basics of OOP from my previous job. So i had to start digging out in online courses. Finally I bought and made many video-courses from Udemy. With the knowledge I got from Udemy I have started with my own exercises and projects. And so i found out MDN, StackOverflow and many many many many... more. A lot of reading, writing, watching and listening and looks like it is not over! Especially that the next thing on my to-do list are design patterns. Uncle Bob is waiting!"
+          "Time for the easiest part :) After I pointed out my goals I checked out courses and bootcamps for junior developers. Unfortunately I have found all of them definitely too stretched over time. And additionally they didn't fulfill my expectations - I had some basics with C# and basics of OOP from my previous job. So I had to start digging out in online courses. Finally I bought and made many video-courses from Udemy. With the knowledge I got from Udemy I have started with my own exercises and projects. And so I have found out MDN, StackOverflow and many many many many... more. A lot of reading, writing, watching and listening and looks like it is not over! Especially that the next thing on my to-do list are design patterns. Uncle Bob is waiting!"
         ]
       },
       "chapter4update1": {
@@ -72,7 +72,7 @@
 
           "<i><b>Clean Architecture. A Craftsman's Guide to Software Structure and Design</b> Robert C. Martin</i>",
 
-          "Both of them are just great! One day I going to write short review but forst i have to read both of them once again. During forst reading i had try to improve my code with all the clues from those books. Honestly, during reading I quickly realized that my knowledge about OOP was definitely too little. But luckly it is changing rapidly :)"
+          "Both of them are just great! One day I going to write short review but first I have to read both of them once again. During first reading I had try to improve my code with all the clues from those books. Honestly, during reading I quickly realized that my knowledge about OOP was definitely too little. But luckly it is changing rapidly :)"
         ]
       }
     },
@@ -83,7 +83,7 @@
       "introduction": {
         "heading": "",
         "content": [
-          "Hey! Welcome at technical knowledge section. Below each category is my subiective note in 6-staged school scale."
+          "Hi! Welcome at technical knowledge section. Below each category I placed my subjective evaluation in 6-staged school scale."
         ]
       },
       "mapLinks": {
@@ -107,43 +107,91 @@
       "html": {
         "heading": "HTML",
         "content": [
-          "Not translated yet"
+          "HTML5 in deed. It is hard to say about programming skills here... :) Innovations provided in version 5 are known for me, but it would be a lie if I would say that I use all the avaible features. Of course I'm trying to not overdose DIVs in my code, but to remember all the semantic markups it needs few commercially written pages. In my apps I tried to care about the semantic but it was far from using all of the tags :) I know ARIA but with usage is same story as with semantic markups. Only one thing which I don't feel are metadatas. I never checked out how the bots works with metadatas so it is quite unknow topic for me.",
+
+          "Note:",
+
+          "C"
         ]
       },
       "css": {
         "heading": ["CSS", "SASS"],
         "content": [
-          "Not translated yet"
+          "What to say about CSS? I know flex-box well. I had heard about GRID but I had no need to use it in my apps. RWD is also known for me. All the pages which I wrote are responsive. And written with Mobile-First approach. It took a while to use to starting with mobile screens... :) The most important thing left -  conventions. I quickly realized that CSS is not a difficult topic but it needs a special treatment. A mess inside css files can be done too easily. That's why I have learned BEM and OOCSS conventions. And again I was grateful for Angular modularity! :)",
+
+          "Note:", 
+
+          "B"
         ]
       },
       "js": {
         "heading": "JavaScript",
         "content": [
-          "Not translated yet"
+          "I mean VanillaJS without any third-party libs. In the course of creating apps I wrote a lot of JS code, but still many things to learn left in my opinion. In many JS lessons/tutorials the topics were reduced to DOM and juggling selectors and classes. But as more code I wrote as more problems to solve I had. So I have  expanded my knowledge far more than what courses offers, but still I don't think that JS subject is closed.",
+
+          "I mentioned about VanillaJS for a reason. At the very beginning of my programming adventure I have decided to not learn any extra libraries. Only if pure JS will not satisfy requirements or code become messy and confusing then it will be a time for third-party libraries. And so appeared that it is possible to develop software without usage of JQuery :) Beside, I think, if You know how programming language works in details then learning of any additional packages should not be a problem. As i mentioned before - it is just another tool, and if You know what's happens under the hood then learning should not be a challenge. I hope future will not disappoint me and will not show how big mistake this way of thinking was... :)",
+
+          "And TypeScript! Wonderfull extension that comes to the rescue! I feel myself much better when I can work with strongly typed languages and more strict rules. I like clear and well-descripted rules. I don't like when one developer use semicolons and the other one does not...",
+
+          "Note:",
+
+          "4/6"
         ]
       },
       "angular": {
         "heading": "Angular 2+",
         "content": [
-          "Not translated yet"
+          "I started struggling with Angular CLI version 9. Unfortunately during coureses I had found many troubles with thisrd-party libraries and Ivy engine so I quickly moved back to the version 8. And I stick to this version till now. I mastered solid piece of knowledge which referred also to advenced topics. At least that is what the courses description said :) Creating custom directives or pipes, routing configuration, bindings, events, layout operations, .json's configuration files, , unit test with Jasmine... And So... I know :) Only one thing I met and I not master was the Angular Material. I don't like the way how it is used. And even look of components derived by Material don't compense the code look. But for sure I will check out Material Design because, at least what I saw, it is nice tool. ",
+
+          "Note:",
+
+          "C"
         ]
       },
       "databases": {
-        "heading": "Bazy danych",
+        "heading": "Databases",
         "content": [
-          "Not translated yet"
+          "As I mentioned <a>HERE</a> when I was checking for specific professions of web development I did try a bit with back-end development. So then I worked for first time with EntityFramework and relational databases, which in my opinion are just great. Somehow I felt much better when worked with relational databases than with non-relational one. However non-relational databases cannot be omitted. Popular and fast, good enough with suprisingly many applications. Easier to learn and easier in use. Till now from all of existing types of non-relational databases I used a Key-Value Pair model (where is the difference to JSON?) and Document-Model model. Because of free hosting and many capabilities I used to use Google Firebase, but I know that the time to learn others providers will come soon.",
+          
+          "Note (relational):",
+
+          "E",
+
+          "Note (non-relational):",
+
+          "D"
         ]
       },
       "ide": {
-        "heading": "Środowiska programistyczne",
+        "heading": "IDEs",
         "content": [
-          "Not translated yet"
+          "I didn't experimented much - Visual Studio Community and Visual Studio Code. Code I chose because I already had some expirence with Visual Studio. And it appeard as very accurate choise. Later I read that VS Code is one of the most popular one IDEs",
+
+          "Once I heard something what sounds to me very interesting and made me reassured with something what I learned in my previous job: the programmer does not use the mouse! :) Of course my previous profession does not allowed me to stop using the mouse at all but I was try to minimalize needs to use it. From the other hand I appreciate current situation and capabielities of VS Code. It is amazing how many things can be done so quickly if You just start use keybord in correct way!",
+
+          "Note:",
+
+          "C"
         ]
       },
       "others": {
-        "heading": "Pozostałe biblioteki i narzędzia",
+        "heading": "Third-party libraries and tools",
         "content": [
-          "Not translated yet"
+          "This section will be short because I didn't learn too many libraries. Just the basics like Bootstrap version 4 and great GRID system provided by this lib. Or RxJS because there is no applications without asynchronus code. Or HammerJS because this days all the web sites are designed for mobiles (okey... almost all...). For the full picture Fontawesome and Google Fonts.",
+
+          "Also tools like CodePen, which is a great sandbox for simple ideas prototyping. Most basic tools like GIT which I know well at the basic level - I know how to make commit, branch, switch active branch and open git console. I aware that GIT offers much more, but it was hard to learn more funcionalities alone and on a small custom projects. In moments like this I think it is better to learn some topics by the job. When I finally get one then for sure I will learn or the others GIT funcionalities :) ",
+
+          "Note (Bootstrap):",
+
+          "C",
+
+          "Note (RxJS):",
+
+          "C",
+
+          "Note (GIT)",
+
+          "D"
         ]
       }
     },
@@ -152,13 +200,13 @@
       "introduction": {
         "heading": "",
         "content": [
-          "Hey! Here You can find some information about projects which i already done. The list is not so impressive at the time, but i'm still doing somethig so updates comes each moment! ;) Projects are sorted from lateast to oldest."
+          "Hey! Here You can find some information about projects which I have done. The list is not so impressive at the moment, but I'm still doing my exercises so updates can comes each moment! ;) Projects are sorted from lateast to oldest."
         ]
       },
       "mapLinks": {
         "heading": "",
         "content": [
-          "Strona ze śmiesznymi obrazkami",
+          "Strona ze śmiesznymi obrazkami (site of funny pictures)",
 
           "To-Do App",
 
@@ -166,21 +214,19 @@
         ]
       },
       "stronaZeSmiesznymiObrazkami": {
-        "heading": "Strona ze śmiesznymi obrazkami",
+        "heading": "Strona ze śmiesznymi obrazkami (Site of Funny Pictures)",
         "content": [
-          "Not translated yet"
-        ]
-      },
-      "toDoApp": {
-        "heading": "ToDo App",
-        "content": [
-          "Not translated yet"
+          "Yup... At each project I finding things which shall be rethinked. This time it was the name of the project... :) Like my other projects this one have been written with Angular CLI 8, RxJS, Bootstrap and Firebase. At the moment there is no hosting because some parts are still in progress. But I decided to share  the source code at this stage because it represents the clean code and clean architecture rules from Uncle Bob's books. Further evolution and maintanance of the code should be an easy thing to do - just because of OOP and clean code. ",
+
+          "GitHub link"
         ]
       },
       "portfolio": {
         "heading": "Portfolio",
         "content": [
-          "Not translated yet"
+          "Nothing more than source of this website. Based on Angular 8 (I know it is like using sledgehammer to crack a nut) and Bootstrap 4. Fully responsive. Layout most likely will be change in future.",
+
+          "GitHub link"
         ]
       }
     }

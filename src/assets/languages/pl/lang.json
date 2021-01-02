@@ -118,25 +118,25 @@
       "css": {
         "heading": ["CSS", "SASS"],
         "content": [
-          "Ach... CSS... Nie ukrywam, że bez IntelliSens'a pisanie kodu CSS byłoby trudniejszym zadaniem niżby mogło się wydawać. Najczęściej używane właściwości zapadły mi już dobrze w pamięć, ale jest jeszcze kilka, o których wiem, że istnieją i nawet gdzieś, kiedyś ich użyłem, ale bez drobnej podpowiedzi ze strony IDE by się nie obyło. Ale własnie po to IDE jest!",
-
           "Z ciekawszych rzeczy dotyczących CSS'a to flex-box jest mi dobrze znany. Gorzej z GRID'em (nie tym bootstrapowym!). Kolejna przydatna rzecz o której czytałem, bądź słyszałem, ale nie miałem potrzeby jej stosować. Wszystko przede mną :) RWD stosuję namiętnie i podchodzę do swoich projektów metodą Mobile-First. Chwilę to zajęło, żeby się przestawić :) Pozostało wspomnieć o rzeczy najważniejszej - metodologii. Szybko zauważyłem, że CSS mimo iż nie jest trudnym tematem to wymaga odpowiedniego podejścia. Bałagan potrafi stworzyć się błyskawicznie. Dlatego, żeby nie wymyślać koła na nowo zapoznałem się z BEM'em oraz OOCSS'em. Oraz po raz kolejny doceniłem modułowość Angulara!",
 
           "Znajomość:",
 
-          "4/6"
+          "5/6"
         ]
       },
       "js": {
         "heading": "JavaScript",
         "content": [
-          "I tutaj jest pies pogrzebany. Uważam, że trudno jest samemu ocenić rzetelnie swoją wiedzę z tego zakresu. I piszę tutaj o VanillaJS, bez żadnych bibliotek. W trakcie swojej nauki napisałem sporo kodu w tym języku, ale daleko mi od poznania pełni jego potencjału. W wielu kursach JS był spłycony do zapoznania się z DOM'em, a następnie żonglowania querySelectorami i klasami. A im dalej w las szedłem tym bardziej TypeScriptowe drzewa przede mną wyrastały, więc w czystym JS trudno mi określić swój poziom.",
+          "Będę pisał tutaj o VanillaJS, bez żadnych bibliotek. W trakcie swojej nauki napisałem sporo kodu w tym języku, ale myślę, że jeszcze sporo do nauki mi zostało. W wielu kursach JS był spłycony do zapoznania się z DOM'em, a następnie żonglowania querySelectorami i klasami. A im dalej w las szedłem tym tym więcej JavaScriptowych drzew przede mną wyrastało. Rozwinąłem swoją wiedzę znacznie poza to co oferowały kursy, ale nie uważam tego tematu za wyczerpany",
 
-          "Wspomniałem powyżej o VanillaJS. Nie bez powodu. Już na samym początku nauki stwierdziłem, że nie ma sensu zaczynać od nauki zewnętrznych bibliotek. Dopiero, gdy Vanilla nie sprosta wymaganiom, bądź kod stanie się obłędnie zagmatwany to zacznę iść w stronę bibliotek. I okazało się, że bez JQuery da się pisać programy :) Zresztą, gdy dobrze zna się sam język programowania, to nauka wspomagaczy powinna przyjść raczej łatwo. Jak już wcześniej pisałem - to tylko kolejne narzędzie, a gdy zna się już mechanizmy, które za nim stoją to nauka ich nie powinna być wielkim wyzwaniem. Mam nadzieję, że mnie przyszłość brzydko nie zaskoczy w tym temacie... :) No i dodatkowo TypeScript, który ratuje składnie JS'a.",
+          "Wspomniałem powyżej o VanillaJS. Nie bez powodu. Już na samym początku nauki stwierdziłem, że nie ma sensu zaczynać od nauki zewnętrznych bibliotek. Dopiero, gdy Vanilla nie sprosta wymaganiom, bądź kod stanie się obłędnie zagmatwany to zacznę iść w stronę bibliotek. I okazało się, że bez JQuery da się pisać programy :) Zresztą, gdy dobrze zna się sam język programowania, to nauka bibliotek pokroju JQuery powinna przyjść raczej łatwo. Jak już wcześniej pisałem - to tylko kolejne narzędzie, a gdy zna się już mechanizmy, które za nim stoją to nauka ich nie powinna być wielkim wyzwaniem. Mam nadzieję, że mnie przyszłość brzydko nie zaskoczy w tym temacie... :)",
+
+          "No i dodatkowo TypeScript, który ratuje JS'a. Zdecydowanie lepiej pracuje mi się z typowanymi i bardziej restrykcyjnymi językami. Lubię, gdy zasady są dobrze i wyraźnie określone. Nie lubię, gdy jeden programista używa średników, a drugi nie...",
 
           "Znajomość:",
 
-          "3+/6"
+          "4/6"
         ]
       },
       "angular": {
@@ -152,7 +152,7 @@
       "databases": {
         "heading": "Bazy danych",
         "content": [
-          "Jak już wspomniałem w tym miejscu w trakcie wyboru specjalizacji próbowałem troszkę pisania programów back-end'owych. Tam też zapoznałem się z EntityFramework i relacyjnymi bazami danych, które uważam za po prostu świetne. Jakoś lepiej się w nich odnajdywałem niż w bazach nierelacyjnych. Ale i tych drugich nie sposób było pominąć w trakcie nauki. Popularne i szybkie, wystarczające w zaskakująco dużej ilości aplikacji. Prostsze w nauce i obsłudze. Jak do tej pory ze wszystkich dostępnych modeli baz nierelacyjnych zapoznałem się z Key-Value Pair (czymże to się różni od JSON'a?) oraz Document-Model. Z racji darmowego hostingu i fajnych możliwości póki co operowałem wyłącznie na google'owskim Firebase, ale wiem, że nie uniknę zapoznania się z kilkoma innymi dostawcami.",
+          "Jak już wspomniałem <a>w tym miejscu</a> w trakcie wyboru specjalizacji próbowałem troszkę pisania programów back-end'owych. Tam też zapoznałem się z EntityFramework i relacyjnymi bazami danych, które uważam za po prostu świetne. Jakoś lepiej się w nich odnajdywałem niż w bazach nierelacyjnych. Ale i tych drugich nie sposób było pominąć w trakcie nauki. Popularne i szybkie, wystarczające w zaskakująco dużej ilości aplikacji. Prostsze w nauce i obsłudze. Jak do tej pory ze wszystkich dostępnych modeli baz nierelacyjnych zapoznałem się z Key-Value Pair (czymże to się różni od JSON'a?) oraz Document-Model. Z racji darmowego hostingu i fajnych możliwości póki co operowałem wyłącznie na google'owskim Firebase, ale wiem, że nie uniknę zapoznania się z kilkoma innymi dostawcami.",
 
           "Znajomość (relacyjne):",
           
@@ -166,7 +166,9 @@
       "ide": {
         "heading": "Środowiska programistyczne",
         "content": [
-          "Tutaj dużo nie eksperymentowałem - Visual Studio Community oraz Visual Studio Code. Na Code padło, gdyż z Visual Studio miałem doczynienia już wcześniej. I był to wybór nader trafny, gdyż jak się później dowiedziałem nie ma chyba popularniejszych IDE. W jednym z kursów usłyszałem coś co bardzo mi się spodobało i utwierdziło mnie w czymś czego w pewien sposób nauczyłem się w swoim poprzednim zawodzie: PROGRAMISTA NIE UŻYWA MYSZKI! :) Oczywiście programowanie sterowników logicznych ma niewiele wspólnego z programowaniem aplikacji webowych czy desktopowych i tam bez myszki ani rusz - ale usilnie minimalizowałem konieczność sięgania po nią. Za to przy pracy z VSC doceniam to, ile można zrobić przy użyciu wyłącznie klawiatury (przy czym nie lubię tworzyć własnych skrótów - jakoś łatwiej zapamiętuje gotowe kombinacje...) i snippetów.",
+          "Tutaj dużo nie eksperymentowałem - Visual Studio Community oraz Visual Studio Code. Na Code padło, gdyż z Visual Studio miałem doczynienia już wcześniej. I był to wybór nader trafny, gdyż jak się później dowiedziałem nie ma chyba popularniejszych IDE.",
+
+          "W jednym z kursów usłyszałem coś co bardzo mi się spodobało i utwierdziło mnie w czymś czego w pewien sposób nauczyłem się w swoim poprzednim zawodzie: PROGRAMISTA NIE UŻYWA MYSZKI! :) Oczywiście programowanie sterowników logicznych ma niewiele wspólnego z programowaniem aplikacji webowych czy desktopowych i tam bez myszki ani rusz - ale usilnie minimalizowałem konieczność sięgania po nią. Za to przy pracy z VSC doceniam to, ile można zrobić przy użyciu wyłącznie klawiatury (przy czym nie lubię tworzyć własnych skrótów - jakoś łatwiej zapamiętuje gotowe kombinacje...) i snippetów.",
 
           "Znajomość:",
 
@@ -209,8 +211,6 @@
         "content": [
           "Strona ze śmiesznymi obrazkami",
 
-          "To-Do App",
-
           "Portfolio"
         ]
       },
@@ -219,31 +219,7 @@
         "content": [
           "Taaaak... zawsze czegoś do końca nie przemyślę. W tym przypadku była to nazwa strony... :) Jak poprzednie projekty także i ten został napisany w Angular 8 z wykorzystaniem RxJS'a, Bootstrapa oraz Firebase. Obecnie projekt nie jest nigdzie hostowany, bo kilka rzeczy jest jeszcze niedokończonych. Ale udostępniam go już w tym stadium ponieważ jest to wiedza, którą wyniosłem z czytania książek wymienionych o tutaj . Znaczy się trochę OOP, trochę czystego kodu, trochę czystej architekury. Dalsze rozwijanie kodu tej strony to czysta przyjemność i raczej formalność. I to właśnie dzięki literaturze pana Roberta C. Martina! Polecam każdemu :)",
 
-          "Kod tej strony jest czymś co chciałbym Ci zaprezentować - w przeciwieństwie do kodu źródłowego ToDo App! Ale nie usuwam nic z dwóch powodów.",
-
-          "Po pierwsze",
-
-          "Dzięki temu mogę pokazać swój progress z ostatnich dwóch miesięcy nauki. Testy, zasady dotyczące clean code, podstawy OOP i bardziej przemyślanej architektury.",
-
-          "Po drugie",
-
-          "ToDo App należy poddać gruntownemu refactoringowi. Być może nawet przepisaniu od nowa (dawno tam nie zaglądałem i trochę się tego boję). Chcę zaznaczyć ten fakt wyraźnie i jednoznacznie w przypadku, gdyby nie była to Twoja pierwsza wizyta na tej stronie :)",
-
           "Link do GitHub'a"
-        ]
-      },
-      "toDoApp": {
-        "heading": "ToDo App",
-        "content": [
-          "Prosta ToDo lista, napisana z wykorzystaniem Angular 8, RxJS, Bootstrap 4 i ngBootstrap 5. W projekcie brakuje testów jednostkowych - pisanie apki zacząłem z myślą, że będzie to tylko ćwiczenie, a nie publikacja do portfolio - dlatego też nie przemyślałem do końca struktury oraz w ogóle pominąłem testy. Ostatecznie ilość kodu na tyle się rozrosła, że zdecydowałem się na publikację aplikacji w portfolio.",
-
-          "W planach miałem dodanie jeszcze kilku funkcjonalności, ale nie jestem pewien czy obecna struktura programu mi na to pozwoli - wpierw wolałbym przepisać na nowo kilka elementów oraz zmienić Firebase Database na Firebase Cloud.",
-
-          "Słowem podsumowania - aplikacja działa, ale z racji, że był to mój pierwszy większy projekt to daleko mu do ideału. Kod znajdujący się w repo wolałbym, żeby został potraktowany raczej w celach weryfikacji postępów, niż ostatecznej oceny moich umiejętności.",
-
-          "Link do GitHub'a",
-
-          "Link do hostingu"
         ]
       },
       "portfolio": {
