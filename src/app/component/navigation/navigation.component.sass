@@ -10,10 +10,6 @@
     box-shadow: 2px 2px 25px 3px deepskyblue
     transition: box-shadow $global-transition-time, height $global-transition-time ease-out
 
-#logoProfession
-    transition: height $global-transition-time, font-size $global-transition-time
-    text-align: center
-
 #menu-toggler
     height: 40px
     width: 42px
@@ -80,11 +76,13 @@
 
 #angular-icon
     font-size: 1.6rem
+    transition: height $global-transition-time, font-size $global-transition-time
     color: rgb(194, 38, 38)
 
 #logoAddon, #logoProfession
-    font-size: .8rem
-    
+    font-size: .9rem
+    transition: height $global-transition-time, font-size $global-transition-time, transform $global-transition-time 
+    text-align: center
 
 .navigation-bar--short
     height: $navigation-bar-height--short
@@ -92,6 +90,12 @@
 
 .navigation-bar--short #logoProfession
     font-size: 0
+
+.navigation-bar--short #logoAddon
+    font-size: 1.2rem
+
+.navigation-bar--short #angular-icon
+    font-size: 2rem
 
 .navigation-bar--short .menu-container
     top: $navigation-bar-height--short
@@ -153,19 +157,10 @@
     100%
         transform: translateY(-2px) rotateZ(135deg)
 
-.btn-language
-    position: absolute
-    right: 4px
-    top: $navigation-bar-height
-    transition: top $global-transition-time ease-out
-
-.navigation-bar--short .btn-language
-    top: 8px
-
 @media ( min-width: $md-breakpoint )
-    $navigation-bar-height: 100px //90
+    $navigation-bar-height: 100px
     $navigation-bar-height--short: 60px
-    $menu-button-width: 150px
+    $menu-button-width: 130px
     $menu-button-height: 44px
     
     .navigation-bar
@@ -201,6 +196,7 @@
         background-color: transparent
 
     li
+        padding: 6px 4px
         border: none
         transition: padding $global-transition-time
         background-color: transparent
@@ -227,13 +223,6 @@
     li.active button
         box-shadow: none
 
-    #angular-icon
-        font-size: 2rem
-        color: rgb(194, 38, 38)
-
-    #logoAddon, #logoProfession
-        font-size: 1rem    
-
     .navigation-bar--short
         height: $navigation-bar-height--short
         box-shadow: 2px 2px 5px deepskyblue
@@ -249,19 +238,28 @@
         width: 115px
     
     .navigation-bar--short li
-        padding: 0px 20px
+        padding: 0px 4px
 
     .navigation-bar--short li.active::after
         top: 2px
         height: 4px
         box-shadow: 0 0 15px 3px deepskyblue
 
-    .btn-language
-        top: $navigation-bar-height + 1px
+@media (min-width: $lg-breakpoint )
+    $menu-button-width: 150px
 
-    .navigation-bar--short .btn-language
-        top: 14px
-
-@media ( min-width: $md-breakpoint ) and ( max-width: $md-lg-breakpoint )
     li
-        padding: 12px 4px
+        padding: 0 8px
+
+    .navigation-bar--short li
+        padding: 0px 12px
+
+    .menu-button
+        padding: 6px 12px
+        width: $menu-button-width
+
+    .navigation-bar--short .menu-button
+        padding: 6px 4px
+
+    .menu-button:not(.active):hover::after
+        width: $menu-button-width

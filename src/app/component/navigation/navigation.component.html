@@ -1,5 +1,5 @@
 <nav class="row no-gutters sticky-top navigation-bar" #nav>
-    <div class="col-4 col-md-10 d-flex justify-content-center align-items-center">
+    <div class="col-3 order-1 col-md-9 order-md-2 col-lg-8 d-flex justify-content-center align-items-center">
         <button
             #menuToggler
             (click)="toggleMenu(menuContainer)" 
@@ -64,19 +64,21 @@
             </ul>
         </div>
     </div>
-    <div class="col d-flex flex-column justify-content-center align-items-center">
-        <span id="logoProfession">Junior Angular Developer</span>
+    <div class="col-6 order-2 col-md-2 order-md-1 col-lg-2 d-flex flex-column justify-content-center align-items-center">
+        <span id="logoProfession">Junior&nbsp;Angular<br>Developer</span>
         <span id="logoAddon" class="d-flex align-items-center"> 
             <fa-icon [icon]="faAngular" id="angular-icon"></fa-icon>
             Portfolio
         </span>
     </div>
-    <div class="btn-language">
-        <select 
-            [value]="activeLanguage"
-            (change)="setLang($event.target.value)" 
-            class="form-control form-control-sm"> 
-            <option *ngFor="let lang of languages" value="{{ lang }}" >{{ lang }}</option>
-        </select>
+    <div class="col-3 order-3 col-md-1 order-md-3 col-lg-2 d-flex justify-content-end align-items-center">
+        <div class="btn-language mr-1">
+            <select 
+                [value]="activeLanguage"
+                (change)="setLang($event.target.value)" 
+                class="form-control form-control-sm"> 
+                <option *ngFor="let lang of languages" value="{{ lang }}" >{{ lang }}</option>
+            </select>
+        </div>
     </div>
 </nav>
