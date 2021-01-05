@@ -206,11 +206,19 @@
       "mapLinks": {
         "heading": "",
         "content": [
+          "Loan Calculator",
+
           "Strona ze śmiesznymi obrazkami (site of funny pictures)",
 
-          "To-Do App",
-
           "Portfolio"
+        ]
+      },
+      "loanCalculator": {
+        "heading": "Loan Calculator",
+        "content": [
+          "My first app which includes back-end as well. Like previously I used Angular 8 and Bootstrap. Server-side part of the app have been written with .Net Core 3.2, Entity Framework and SQLite. My intention was to writa a site which could be a part of a bigger project. So that's why You can find simple landing-page, calculator itself - which is a main goal of this app - and empty \"About\" tab. App have been writen according to Clean Code and OOP rules. Structure is based on the Layer Archtecture (Onion Archtecture). Folder structure is intuitive and follows a convention. I would like to still focus more on the front-end side therefore in next days the page layout will be changed - at the moment it is a \"naked\" Bootstrap with really a few custom elements",
+
+          "GithHub link"
         ]
       },
       "stronaZeSmiesznymiObrazkami": {
