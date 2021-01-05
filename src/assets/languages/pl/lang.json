@@ -209,9 +209,19 @@
       "mapLinks": {
         "heading": "",
         "content": [
+          "Kalkulator kredytowy",
+
           "Strona ze śmiesznymi obrazkami",
 
           "Portfolio"
+        ]
+      },
+      "loanCalculator": {
+        "heading": "Kalkulator kredytowy",
+        "content": [
+          "Pierwsza aplikacja w której postawiłem również back-end. Tradycyjnie aplikacja kliencka napisana została z wykorzystaniem Angular 8 oraz Bootstrapa. Kod po stronie serwera to .Net Core 3.2 z wykorzystaniem Entity Framework oraz SQLite. Chciałem napisać aplikację, która mogłaby być częścią czegoś większego. Dlatego na szkielet strony składa się prosty landing-page, kalkulator - który jest sednem tego projektu - oraz zupełnie pusta zakładka \"About\". Program został napisany zgodnie z architekturą warstwową (Onion Architecture). Podział folderów jest intuicyjny oraz zgodny w konwencją. Z racji tego, że wciąż chciałbym skupiać się bardziej na front-endzie to z pewnością w najbliższym czasie szata graficzna zostanie zmieniona - na chwilę obecną jest to \"nagi\" Bootstrap z bardzo skromnymi dodatkami z mojej strony.",
+
+          "Link do GitHub'a"
         ]
       },
       "stronaZeSmiesznymiObrazkami": {
@@ -226,6 +236,10 @@
         "heading": "Portfolio",
         "content": [
           "Nic mniej, nic więcej niż kod źródłowy tej strony. Napisana z wykorzystaniem Angulara (trochę jak strzelanie z armaty do komara) i Bootstrapa 4. W pełni responsywna. W przyszłości będzie jeszcze rozwijana, ale nie wiem jeszcze czy na tym szablonie.",
+
+          "Bożonarodzeniowy update:",
+
+          "Stronka została wzbogacona o angielską wersję językową. Nie wykorzystałem żadnej biblioteki i18n. Po przyjrzeniu się kilku popularnym bibliotekom stwierdziłem, że fajnie będzie napisać coś swojego - szczególnie, że nie wygląda to na trudne zadanie :) Chciałbym, aby teksty mogły posiadać własne znaczniki stylów (kilka najprostszych) - dlatego chwilowo przypisanie tekstów do odpowiednich znaczników HTML odbywa się przez <i>innerHTML</i>, ale zdaję sobie sprawę z tego, że nie jest to rozwiązanie, które mogłoby zostać użyte w komercyjnej aplikacji (kwestie bezpieczeństwa).",
 
           "Link do GitHub'a"
         ]

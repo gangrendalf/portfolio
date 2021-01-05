@@ -40,6 +40,24 @@
             <section-separator></section-separator>
             <section id="section_one">
                 <div class="section-heading">
+                    <h2 [innerHTML]="texts.loanCalculator.heading"></h2>
+                </div>
+                <div class="section-body">
+                    <p [innerHTML]="texts.loanCalculator.content[0]"></p>
+                    <p>
+                        <a 
+                            href="https://github.com/gangrendalf/LoanFacility" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            class="link--underline"
+                            [innerHTML]="texts.loanCalculator.content[1]"
+                        ></a>
+                    </p>
+                </div>
+            </section>
+            <section-separator></section-separator>
+            <section id="section_two">
+                <div class="section-heading">
                     <h2 [innerHTML]="texts.stronaZeSmiesznymiObrazkami.heading"></h2>
                 </div>
                 <div class="section-body">
@@ -63,42 +81,6 @@
                             rel="noopener noreferrer"
                             class="link--underline"
                             [innerHTML]="texts.stronaZeSmiesznymiObrazkami.content[6]"
-                        ></a>
-                    </p>
-                </div>
-            </section>
-            <section-separator></section-separator>
-            <section id="section_two">
-                <div class="section-heading">
-                    <h2 [innerHTML]="texts.toDoApp.heading"></h2>
-                </div>
-                <div class="section-body">
-                    <p [innerHTML]="texts.toDoApp.content[0]"></p>
-                    <p [innerHTML]="texts.toDoApp.content[1]"></p>
-                    <ngb-carousel *ngIf="todoListCarouselDataSource as images" class="my-5">
-                        <ng-template ngbSlide *ngFor="let image of images; let i = index;">
-                            <div class="picsum-img-wrapper">
-                                <img [src]="images[i]" alt="Random first slide">
-                            </div>
-                        </ng-template>
-                    </ngb-carousel>
-                    <p [innerHTML]="texts.toDoApp.content[2]"></p>
-                    <p>
-                        <a 
-                            href="https://github.com/gangrendalf/to-do-app" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            class="link--underline"
-                            [innerHTML]="texts.toDoApp.content[3]"
-                        ></a>
-                    </p>
-                    <p>
-                        <a 
-                            href="https://to-do-app-19460.firebaseapp.com/welcome" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            class="link--underline"
-                            [innerHTML]="texts.toDoApp.content[4]"
                         ></a>
                     </p>
                 </div>
