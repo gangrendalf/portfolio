@@ -135,7 +135,7 @@
 
           "Note:",
 
-          "4/6"
+          "C"
         ]
       },
       "angular": {
@@ -179,7 +179,7 @@
         "content": [
           "This section will be short because I didn't learn too many libraries. Just the basics like Bootstrap version 4 and great GRID system provided by this lib. Or RxJS because there is no applications without asynchronus code. Or HammerJS because this days all the web sites are designed for mobiles (okey... almost all...). For the full picture Fontawesome and Google Fonts.",
 
-          "Also tools like CodePen, which is a great sandbox for simple ideas prototyping. Most basic tools like GIT which I know well at the basic level - I know how to make commit, branch, switch active branch and open git console. I aware that GIT offers much more, but it was hard to learn more funcionalities alone and on a small custom projects. In moments like this I think it is better to learn some topics by the job. When I finally get one then for sure I will learn or the others GIT funcionalities :) ",
+          "Also tools like CodePen, which is a great sandbox for simple ideas prototyping. Most basic tools like GIT which I know well at the basic level - I know how to make commit, branch, switch active branch and open git console. I aware that GIT offers much more, but it was hard to learn more funcionalities alone and on a small self-made projects. In moments like this I think it is better to learn some topics by the job. When I finally get one then for sure I will learn the others GIT funcionalities :) ",
 
           "Note (Bootstrap):",
 
@@ -216,7 +216,7 @@
       "loanCalculator": {
         "heading": "Loan Calculator",
         "content": [
-          "My first app which includes back-end as well. Like previously I used Angular 8 and Bootstrap. Server-side part of the app have been written with .Net Core 3.2, Entity Framework and SQLite. My intention was to writa a site which could be a part of a bigger project. So that's why You can find simple landing-page, calculator itself - which is a main goal of this app - and empty \"About\" tab. App have been writen according to Clean Code and OOP rules. Structure is based on the Layer Archtecture (Onion Archtecture). Folder structure is intuitive and follows a convention. I would like to still focus more on the front-end side therefore in next days the page layout will be changed - at the moment it is a \"naked\" Bootstrap with really a few custom elements",
+          "My first app which includes back-end as well. Like previously I have used Angular 8 and Bootstrap. Server-side part of the app have been written with .Net Core 3.2, Entity Framework and SQLite. My intention was to write a site which could be a part of a bigger project. So that's why You will find there simple landing-page, calculator itself - a main goal of this app - and empty \"About\" tab. App have been writen according to Clean Code and OOP rules. Structure is based on the Layer Archtecture (Onion Archtecture). Folder structure is intuitive and follows a convention. I would like to focus more on the front-end side therefore in next days the page layout will be changed - at the moment it is a \"naked\" Bootstrap with really a few self-made elements",
 
           "GithHub link"
         ]
@@ -233,6 +233,10 @@
         "heading": "Portfolio",
         "content": [
           "Nothing more than source of this website. Based on Angular 8 (I know it is like using sledgehammer to crack a nut) and Bootstrap 4. Fully responsive. Layout most likely will be change in future.",
+
+          "Christmans-update:",
+
+          "So finally You can read my portfolio also in english! :) First of all I have not used any i18n library. After a quick review of few most popular libraries I have decided to write my own version of muli-lang addon. It did not sound like a complex task to do :) I wanted to have a possibility to add custom styles markups into a texts dictionary (few basic one) therefore -at least now- the texts are merged with html tags by <i>innerHTML</i> attribute. Of course I am aware that it is not a perfect solution, and most likely any commercial app will not use this solution (security issues). But for purpose of this site it should to be good enough",
 
           "GitHub link"
         ]
