@@ -53,7 +53,7 @@ export class NavigationComponent {
 
   hideMenuWithDelay(content: HTMLDivElement, delay: number){
     setTimeout(() => {
-      content.classList.toggle('menu-container--hidden');
+      content.classList.add('menu-container--hidden');
       this.menuTogglerEl.nativeElement.classList.remove('active');
     }, delay);
   }
