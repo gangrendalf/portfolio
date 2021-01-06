@@ -28,14 +28,12 @@
 
 .menu-container--hidden
     height: 0
-    transition: height $global-transition-time
 
 .menu-button
     position: relative
     width: 100%
     height: $menu-button-height
     border-radius: 20rem
-    transition: width $global-transition-time, font-size $global-transition-time
 
 .menu-button:not(.active)::after
     content: ' '
@@ -51,7 +49,6 @@
 
 .menu-button:not(.active):hover::after
     width: $menu-button-width
-    transition: width ease-out $global-transition-time
 
 .menu-button.active
     background-color: $menu-button-background
@@ -165,7 +162,6 @@
     
     .navigation-bar
         height: $navigation-bar-height
-        transition: height $global-transition-time, box-shadow $global-transition-time
     
     #menu-toggler
         display: none
@@ -177,7 +173,6 @@
         display: flex
         justify-content: center
         align-items: center
-        transition: height $global-transition-time
 
     .menu-button
         width: $menu-button-width
@@ -198,7 +193,6 @@
     li
         padding: 6px 4px
         border: none
-        transition: padding $global-transition-time
         background-color: transparent
 
     li::after
