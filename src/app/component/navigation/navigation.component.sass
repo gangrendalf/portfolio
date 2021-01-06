@@ -178,6 +178,7 @@
         width: $menu-button-width
         height: $menu-button-height
         font-size: 20px
+        transition: transform .3s
 
     .menu-button:not(.active)::after
         width: 0
@@ -225,8 +226,7 @@
         height: $navigation-bar-height--short
 
     .navigation-bar--short .menu-button
-        width: 115px
-        font-size: 16px
+        transform: scale(.8)
 
     .navigation-bar--short .menu-button:hover::after
         width: 115px
