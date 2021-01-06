@@ -35,7 +35,6 @@
     width: 100%
     height: $menu-button-height
     border-radius: 20rem
-    transition: width $global-transition-time, font-size $global-transition-time
 
 .menu-button:not(.active)::after
     content: ' '
@@ -183,6 +182,7 @@
         width: $menu-button-width
         height: $menu-button-height
         font-size: 20px
+        transition: transform .3s
 
     .menu-button:not(.active)::after
         width: 0
@@ -198,7 +198,6 @@
     li
         padding: 6px 4px
         border: none
-        transition: padding $global-transition-time
         background-color: transparent
 
     li::after
@@ -231,8 +230,7 @@
         height: $navigation-bar-height--short
 
     .navigation-bar--short .menu-button
-        width: 115px
-        font-size: 16px
+        transform: scale(.8)
 
     .navigation-bar--short .menu-button:hover::after
         width: 115px
