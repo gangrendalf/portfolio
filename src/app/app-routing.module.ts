@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule, ExtraOptions } from '@angular/router';
-import { BriefComponent } from './component/brief/brief.component';
-import { KnowledgeComponent } from './component/knowledge/knowledge.component';
-import { ProjectsComponent } from './component/projects/projects.component';
-import { ContactComponent } from './component/contact/contact.component';
-import { PageNotFoundComponent } from './component/page-not-found/page-not-found.component';
+import { BriefComponent } from './modules/brief/brief.component';
+import { KnowledgeComponent } from './modules/knowledge/knowledge.component';
+import { ProjectsComponent } from './modules/projects/projects.component';
+import { ContactComponent } from './modules/contact/contact.component';
+import { PageNotFoundComponent } from './shared/components/page-not-found/page-not-found.component';
 
 
 export const routes: Routes = [
