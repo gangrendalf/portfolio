@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule, ExtraOptions } from '@angular/router';
-import { BriefComponent } from './modules/brief/brief.component';
-import { KnowledgeComponent } from './modules/knowledge/knowledge.component';
-import { ProjectsComponent } from './modules/projects/projects.component';
-import { ContactComponent } from './modules/contact/contact.component';
-import { PageNotFoundComponent } from './shared/components/page-not-found/page-not-found.component';
+import { BriefComponent } from './portfolio/brief/brief.component';
+import { KnowledgeComponent } from './portfolio/knowledge/knowledge.component';
+import { ProjectsComponent } from './portfolio/projects/projects.component';
+import { ContactComponent } from './portfolio/contact/contact.component';
+import { NotFoundComponent } from './core/pages/not-found/not-found.component';
 
 
 export const routes: Routes = [
@@ -13,7 +13,7 @@ export const routes: Routes = [
   { path: 'knowledge', component: KnowledgeComponent },
   { path: 'projects', component: ProjectsComponent },
   { path: 'contact', component: ContactComponent },
-  { path: '**', component: PageNotFoundComponent }
+  { path: '**', component: NotFoundComponent },
 ];
 
 export  const routerOptions: ExtraOptions = {
