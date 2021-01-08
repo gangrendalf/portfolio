@@ -9,6 +9,8 @@ import { SharedModule } from '../shared/shared.module';
 import { SectionSeparatorComponent } from './components/section-separator/section-separator.component';
 import { AboutAuthorCardComponent } from './components/about-author-card/about-author-card.component';
 import { SectionsLinkMapComponent } from './components/sections-link-map/sections-link-map.component';
+import { CoreModule } from '../core/core.module';
+import { PortfolioParagrafDirective } from './directives/portfolio-paragraf.directive';
 
 
 @NgModule({
@@ -19,11 +21,13 @@ import { SectionsLinkMapComponent } from './components/sections-link-map/section
     ContactComponent,
     SectionSeparatorComponent,
     AboutAuthorCardComponent,
-    SectionsLinkMapComponent
+    SectionsLinkMapComponent,   
+    PortfolioParagrafDirective
   ],
   imports: [
     CommonModule,
-    SharedModule
+    SharedModule,
+    CoreModule
   ],
   exports: [
     BriefComponent,

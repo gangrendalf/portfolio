@@ -18,7 +18,7 @@
       "introduction": {
         "heading": "Wstęp",
         "content": [
-          "Hej! Witaj na mojej stronie! Poniżej znajdziesz kilka informacji o mojej osobie - bardziej personalnych niż zawodowych."
+          "Hej! <!--start-italic-->Witaj<!--end-italic--> na mojej <i>stronie</i>! Poniżej znajdziesz kilka informacji o mojej osobie - bardziej personalnych niż zawodowych."
         ]
       },
       "linksMap": {

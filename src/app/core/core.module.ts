@@ -5,13 +5,15 @@ import { FootComponent } from './components/foot/foot.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { SharedModule } from '../shared/shared.module';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { LangMarkupPipe } from './pipes/lang-markup.pipe';
 
 
 @NgModule({
   declarations: [
     NavigationComponent,
     FootComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    LangMarkupPipe
   ],
   imports: [
     CommonModule,
@@ -20,7 +22,8 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
   exports: [
     NavigationComponent,
     FootComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    LangMarkupPipe
   ]
 })
 export class CoreModule { }
