@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule, ExtraOptions } from '@angular/router';
-import { BriefComponent } from './portfolio/brief/brief.component';
-import { KnowledgeComponent } from './portfolio/knowledge/knowledge.component';
-import { ProjectsComponent } from './portfolio/projects/projects.component';
-import { ContactComponent } from './portfolio/contact/contact.component';
+import { BriefComponent } from './portfolio/pages/brief/brief.component';
+import { KnowledgeComponent } from './portfolio/pages/knowledge/knowledge.component';
+import { ProjectsComponent } from './portfolio/pages/projects/projects.component';
+import { ContactComponent } from './portfolio/pages/contact/contact.component';
 import { NotFoundComponent } from './core/pages/not-found/not-found.component';
 
 

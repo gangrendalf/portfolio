@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild, ElementRef, OnDestroy } from '@angular/core';
 import { Observable } from 'rxjs';
-import { LanguageService } from 'src/app/shared/services/language.service';
+import { LanguageService } from 'src/app/core/services/language.service';
 
 @Component({
   selector: 'brief',

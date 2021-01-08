@@ -1,9 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { AboutAuthorCardComponent } from './components/about-author-card/about-author-card.component';
-import { SectionSeparatorComponent } from './components/section-separator/section-separator.component';
-import { LangMarkupPipe } from './pipes/lang-markup.pipe';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -14,9 +11,6 @@ import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
-    AboutAuthorCardComponent,
-    SectionSeparatorComponent,
-    LangMarkupPipe,
   ],
   imports: [
     CommonModule,
@@ -28,9 +22,6 @@ import { RouterModule } from '@angular/router';
     RouterModule
   ],
   exports: [
-    AboutAuthorCardComponent,
-    SectionSeparatorComponent,
-    LangMarkupPipe,
     BrowserModule,
     FontAwesomeModule,
     NgbModule,

@@ -1,11 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { BriefComponent } from './brief/brief.component';
-import { ContactComponent } from './contact/contact.component';
-import { KnowledgeComponent } from './knowledge/knowledge.component';
-import { ProjectsComponent } from './projects/projects.component';
+import { BriefComponent } from './pages/brief/brief.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { KnowledgeComponent } from './pages/knowledge/knowledge.component';
+import { ProjectsComponent } from './pages/projects/projects.component';
 import { SharedModule } from '../shared/shared.module';
+import { SectionSeparatorComponent } from './components/section-separator/section-separator.component';
+import { AboutAuthorCardComponent } from './components/about-author-card/about-author-card.component';
 
 
 @NgModule({
@@ -14,6 +16,8 @@ import { SharedModule } from '../shared/shared.module';
     KnowledgeComponent,
     ProjectsComponent,
     ContactComponent,
+    SectionSeparatorComponent,
+    AboutAuthorCardComponent
   ],
   imports: [
     CommonModule,

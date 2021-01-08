@@ -2,7 +2,7 @@ import { Component, HostListener, ViewChild, ElementRef } from '@angular/core';
 import { faHamburger, IconDefinition } from "@fortawesome/free-solid-svg-icons";
 import { faAngular } from "@fortawesome/free-brands-svg-icons";
 import { Router, NavigationEnd } from '@angular/router';
-import { LanguageService } from 'src/app/shared/services/language.service';
+import { LanguageService } from 'src/app/core/services/language.service';
 
 
 @Component({
