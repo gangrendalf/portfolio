@@ -21,7 +21,7 @@
           "Hi! Welcome to my web-site! Below You can find some details about me - more personal than profession-related."
         ]
       },
-      "mapLinks": {
+      "linksMap": {
         "heading": "",
         "content": [
           "Who I was?",
@@ -86,7 +86,7 @@
           "Hi! Welcome at technical knowledge section. Below each category I placed my subjective evaluation in 6-staged school scale."
         ]
       },
-      "mapLinks": {
+      "linksMap": {
         "heading": "",
         "content": [
           "HTML",
@@ -203,7 +203,7 @@
           "Hey! Here You can find some information about projects which I have done. The list is not so impressive at the moment, but I'm still doing my exercises so updates can comes each moment! ;) Projects are sorted from lateast to oldest."
         ]
       },
-      "mapLinks": {
+      "linksMap": {
         "heading": "",
         "content": [
           "Loan Calculator",

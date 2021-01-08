@@ -21,7 +21,7 @@
           "Hej! Witaj na mojej stronie! Poniżej znajdziesz kilka informacji o mojej osobie - bardziej personalnych niż zawodowych."
         ]
       },
-      "mapLinks": {
+      "linksMap": {
         "heading": "",
         "content": [
           "Kim byłem?",
@@ -87,7 +87,7 @@
           "Hej! Witaj w sekcji dotyczącej mojej wiedzy technicznej. Pod każdą kategorią zamieszczam swoją subiektywną ocenę danej tachnologii w 6-ścio stopniowej, szkolnej skali."
         ]
       },
-      "mapLinks": {
+      "linksMap": {
         "heading": "",
         "content": [
           "HTML",
@@ -206,7 +206,7 @@
           "Hej! Witaj w sekcji dotyczącej moich zrealizowanych projektów. Lista jest póki co skromna, ale nie lenie sie i caly czas nad czymś pracuje! ;) Projekty ułożone są w kolejności od najnowszych do najstarszych."
         ]
       },
-      "mapLinks": {
+      "linksMap": {
         "heading": "",
         "content": [
           "Kalkulator kredytowy",
