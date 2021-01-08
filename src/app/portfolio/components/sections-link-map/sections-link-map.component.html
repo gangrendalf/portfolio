@@ -1,0 +1,10 @@
+<ul class="list-group-flush">
+  <li class="list-group-item" *ngFor="let link of linksMap.content; let i = index">
+      <a
+          routerLink="{{ currentURL }}" 
+          fragment="section_{{ i + 1 }}"
+          class="link--underline"
+          [innerHTML]="link">
+      </a>
+  </li>
+</ul>

@@ -9,16 +9,10 @@
                     <p [innerHTML]="texts.introduction.content"></p>
                 </div>
                 <div class="section-body">
-                    <ul class="list-group-flush">
-                        <li class="list-group-item" *ngFor="let link of texts.mapLinks.content; let i = index">
-                            <a 
-                                routerLink="/knowledge" 
-                                fragment="section_{{ i+1 }}"
-                                class="link--underline"
-                                [innerHTML]="link"
-                            ></a>
-                        </li>
-                    </ul>
+                    <sections-link-map
+                        currentURL="/knowledge"
+                        [linksMap]="texts.mapLinks">
+                    </sections-link-map>
                 </div>
             </section>
             <section-separator></section-separator>

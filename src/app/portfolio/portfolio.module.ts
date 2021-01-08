@@ -8,6 +8,7 @@ import { ProjectsComponent } from './pages/projects/projects.component';
 import { SharedModule } from '../shared/shared.module';
 import { SectionSeparatorComponent } from './components/section-separator/section-separator.component';
 import { AboutAuthorCardComponent } from './components/about-author-card/about-author-card.component';
+import { SectionsLinkMapComponent } from './components/sections-link-map/sections-link-map.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { AboutAuthorCardComponent } from './components/about-author-card/about-a
     ProjectsComponent,
     ContactComponent,
     SectionSeparatorComponent,
-    AboutAuthorCardComponent
+    AboutAuthorCardComponent,
+    SectionsLinkMapComponent
   ],
   imports: [
     CommonModule,
