@@ -10,35 +10,19 @@
                 </div>
                 <div class="section-body">
                     <ul class="list-group-flush">
-                        <li class="list-group-item">
+                        <li class="list-group-item" *ngFor="let link of texts.mapLinks.content; let i = index">
                             <a 
                                 routerLink="/projects" 
-                                fragment="section_one"
+                                fragment="section_{{ i + 1}}"
                                 class="link--underline"
-                                [innerHTML]="texts.mapLinks.content[0]"
-                            ></a>
-                        </li>
-                        <li class="list-group-item">
-                            <a 
-                                routerLink="/projects" 
-                                fragment="section_two"
-                                class="link--underline"
-                                [innerHTML]="texts.mapLinks.content[1]"
-                            ></a>
-                        </li>
-                        <li class="list-group-item">
-                            <a 
-                                routerLink="/projects" 
-                                fragment="section_three"
-                                class="link--underline"
-                                [innerHTML]="texts.mapLinks.content[2]"
+                                [innerHTML]="link"
                             ></a>
                         </li>
                     </ul>
                 </div>
             </section>
             <section-separator></section-separator>
-            <section id="section_one">
+            <section id="section_1">
                 <div class="section-heading">
                     <h2 [innerHTML]="texts.loanCalculator.heading"></h2>
                 </div>
@@ -56,7 +40,7 @@
                 </div>
             </section>
             <section-separator></section-separator>
-            <section id="section_two">
+            <section id="section_2">
                 <div class="section-heading">
                     <h2 [innerHTML]="texts.stronaZeSmiesznymiObrazkami.heading"></h2>
                 </div>
@@ -81,7 +65,7 @@
                 </div>
             </section>
             <section-separator></section-separator>
-            <section id="section_three">
+            <section id="section_3">
                 <div class="section-heading">
                     <h2 [innerHTML]="texts.portfolio.heading"></h2>
                 </div>

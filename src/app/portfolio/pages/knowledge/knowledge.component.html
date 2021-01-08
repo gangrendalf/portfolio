@@ -10,67 +10,19 @@
                 </div>
                 <div class="section-body">
                     <ul class="list-group-flush">
-                        <li class="list-group-item">
+                        <li class="list-group-item" *ngFor="let link of texts.mapLinks.content; let i = index">
                             <a 
                                 routerLink="/knowledge" 
-                                fragment="section_one"
+                                fragment="section_{{ i+1 }}"
                                 class="link--underline"
-                                [innerHTML]="texts.mapLinks.content[0]"
-                            ></a>
-                        </li>
-                        <li class="list-group-item">
-                            <a 
-                                routerLink="/knowledge" 
-                                fragment="section_two"
-                                class="link--underline"
-                                [innerHTML]=" texts.mapLinks.content[1]"
-                            ></a>
-                        </li>
-                        <li class="list-group-item">
-                            <a 
-                                routerLink="/knowledge" 
-                                fragment="section_three"
-                                class="link--underline"
-                                [innerHTML]=" texts.mapLinks.content[2]"
-                            ></a>
-                        </li>
-                        <li class="list-group-item">
-                            <a 
-                                routerLink="/knowledge"
-                                fragment="section_four"
-                                class="link--underline"
-                                [innerHTML]=" texts.mapLinks.content[3]"
-                            ></a>
-                        </li>
-                        <li class="list-group-item">
-                            <a 
-                                routerLink="/knowledge" 
-                                fragment="section_five"
-                                class="link--underline"
-                                [innerHTML]=" texts.mapLinks.content[4]"
-                            ></a>
-                        </li>
-                        <li class="list-group-item">
-                            <a 
-                                routerLink="/knowledge" 
-                                fragment="section_six"
-                                class="link--underline"
-                                [innerHTML]=" texts.mapLinks.content[5]"
-                            ></a>
-                        </li>
-                        <li class="list-group-item">
-                            <a 
-                                routerLink="/knowledge" 
-                                fragment="section_seven"
-                                class="link--underline"
-                                [innerHTML]=" texts.mapLinks.content[6]"
+                                [innerHTML]="link"
                             ></a>
                         </li>
                     </ul>
                 </div>
             </section>
             <section-separator></section-separator>
-            <section id="section_one">
+            <section id="section_1">
                 <div class="section-heading">
                     <div class="section-heading--icon">
                         <img 
@@ -89,7 +41,7 @@
                 </div>
             </section>
             <section-separator></section-separator>
-            <section id="section_two">
+            <section id="section_2">
                 <div class="section-heading">
                     <div class="section-heading--icon">
                         <img 
@@ -113,7 +65,7 @@
                 </div>
             </section>
             <section-separator></section-separator>
-            <section id="section_three">
+            <section id="section_3">
                 <div class="section-heading">
                     <div class="section-heading--icon">
                         <img 
@@ -133,7 +85,7 @@
                 </div>
             </section>
             <section-separator></section-separator>
-            <section id="section_four">
+            <section id="section_4">
                 <div class="section-heading">
                     <div class="section-heading--icon">
                         <img 
@@ -151,7 +103,7 @@
                 </div>
             </section>
             <section-separator></section-separator>
-            <section id="section_five">
+            <section id="section_5">
                 <div class="section-heading">
                     <div class="section-heading--icon">
                         <img 
@@ -173,7 +125,7 @@
                 </div>
             </section>
             <section-separator></section-separator>
-            <section id="section_six">
+            <section id="section_6">
                 <div class="section-heading">
                     <div class="section-heading--icon">
                         <img 
@@ -192,7 +144,7 @@
                 </div>
             </section>
             <section-separator></section-separator>
-            <section id="section_seven">
+            <section id="section_7">
                 <div class="section-heading">
                     <h2 [innerHTML]="texts.others.heading" class="section-heading--text"></h2>
                 </div>
