@@ -10,11 +10,11 @@ import { LanguageService } from 'src/app/core/services/language.service';
 export class BriefComponent {
   texts: any = null;
 
-  chapterOneDataSource = [
-    '/assets/images/brief/breif_past_1.jpg',
-    '/assets/images/brief/breif_past_2.jpg',
-    '/assets/images/brief/breif_past_3.jpg',
-    '/assets/images/brief/breif_past_4.jpg'
+  chapterOneImgsDataSource = [
+    { url: '/assets/images/brief/breif_past_1.jpg', alt: 'Workstation in my previus job used to develop simulations' },
+    { url: '/assets/images/brief/breif_past_2.jpg', alt: 'One of robotised station which I had to program' },
+    { url: '/assets/images/brief/breif_past_3.jpg', alt: 'Customer plant' },
+    { url: '/assets/images/brief/breif_past_4.jpg', alt: 'One of the training centers. I had to increase my competencies many times' }
   ]
 
   constructor(private lang: LanguageService ) { 

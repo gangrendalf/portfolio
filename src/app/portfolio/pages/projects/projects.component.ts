@@ -9,11 +9,11 @@ import { LanguageService } from 'src/app/core/services/language.service';
 export class ProjectsComponent {
 
   stronaZObrazkamiCarouselDataSource = [
-    '/assets/images/projects/stronaZeSmiesznymiObrazkami/Screenshot_1.png',
-    '/assets/images/projects/stronaZeSmiesznymiObrazkami/Screenshot_2.png',
-    '/assets/images/projects/stronaZeSmiesznymiObrazkami/Screenshot_3.png',
-    '/assets/images/projects/stronaZeSmiesznymiObrazkami/Screenshot_4.png',
-    '/assets/images/projects/stronaZeSmiesznymiObrazkami/Screenshot_5.png'
+    { url: '/assets/images/projects/stronaZeSmiesznymiObrazkami/Screenshot_1.png', alt: 'Overview of waiting-room page'},
+    { url: '/assets/images/projects/stronaZeSmiesznymiObrazkami/Screenshot_2.png', alt: 'Overview of user screen'},
+    { url: '/assets/images/projects/stronaZeSmiesznymiObrazkami/Screenshot_3.png', alt: 'Overview of image datail view with example comment'},
+    { url: '/assets/images/projects/stronaZeSmiesznymiObrazkami/Screenshot_4.png', alt: 'Overview of registration page'},
+    { url: '/assets/images/projects/stronaZeSmiesznymiObrazkami/Screenshot_5.png', alt: 'Overview of image upload page'}
   ];
 
   todoListCarouselDataSource = [
